@@ -1624,25 +1624,38 @@ h3 {
   width: 100%;
 }
 /*bottom nav*/
-.bottom-nav  {
+/*.bottom-nav  {
     text-align: center !important;
 
+}*/
+
+.bottom-nav {
+  background-color: #000000;
 }
 
-.bottom-nav ul li{
-    display: inline-block;
-    color: var(--white-color);
+.bottom-nav ul {
+  list-style: none;
+  display: flex;
+  float: right !important;
+  font-size: 12px;
+  color: #ffffff;
+  margin-top: 15px;
 }
 
-.bottom-nav ul li a{
+
+.bottom-nav ul li a {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.bottom-nav a:hover, .bottom-nav a:focus {
     text-decoration: none;
-    color: var(--white-color);
-    transition: .5s all;
-    font-size: 13px;
-    font-weight: 600;
+    color: var(--main-color-second);
+} 
+
+.bottom-nav .bottom-menu-divider {
+    color: #ffffff;
+    padding: 0px 2px;
 }
 
-.bottom-nav ul li a:hover, .bottom-nav ul li a:focus {
-    color: var(--main-color-second) !important;
-}
 /* Back To Top CSS End */
