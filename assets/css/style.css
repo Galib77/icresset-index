@@ -417,7 +417,7 @@ h3 {
 .use-section::before {
   position: absolute;
   content: '';
-  background: rgba(1, 12, 41, 0.85);
+  background: rgba(35, 31, 32);
   height: 100%;
   width: 100%;
   z-index: -1;
