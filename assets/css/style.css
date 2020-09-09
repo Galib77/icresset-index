@@ -732,7 +732,7 @@ h3 {
 
 .service-card .service-text h3 {
   font-size: 22px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   line-height: 1.4;
 }
 
