@@ -1,10 +1,13 @@
-@import url("https://fonts.googleapis.com/css?family=Catamaran:400,600|IBM+Plex+Sans:400,500,500i,600,700&amp;display=swap");
+/*@import url("https://fonts.googleapis.com/css?family=Catamaran:400,600|IBM+Plex+Sans:400,500,500i,600,700&amp;display=swap");
+*/
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
 /* Font Variables */
 /* Color Variables */
 /* Others Variables ed1a3b - ed1a3b */
 body {
   font-size: 17px;
-  font-family: "IBM Plex Sans", sans-serif !important;
+  /*font-family: "IBM Plex Sans", sans-serif !important;*/
+  font-family: 'Kumbh Sans', sans-serif !important;
   color: #707070;
   line-height: 1.6;
 }
@@ -13,8 +16,25 @@ body {
     --main-color-first: #231f20;
     --main-color-second: #ed1a3b;
     --white-color: #ffffff;
-    --black-color: #000000;
     --light-black: #222222;
+    --layout_site_width: 90%;
+    --layout_site_max_width: 1200px;
+    --text_color: #333333;
+    --text_color_lighten_5: #404040;
+    --text_color_lighten_10: #4d4d4d;
+    --text_color_lighten_15: #595959;
+    --text_color_lighten_20: #666666;
+    --text_color_lighten_25: #737373;
+    --text_color_lighten_30: #808080;
+    --text_color_lighten_35: #8c8c8c;
+    --text_color_lighten_40: #999999;
+    --text_color_lighten_50: #b3b3b3;
+    --text_color_lighten_60: #cccccc;
+    --text_color_lighten_70: #e6e6e6;
+    --black-color: #000000;
+    --text_color_darken_5: #262626;
+    --text_color_darken_10: #1a1a1a;
+    --text_color_darken_15: #0d0d0d;
   }
 /* Default CSS Start */
 img {
@@ -56,10 +76,14 @@ button:focus {
 h1, h2, h3, h4, h5, h6 {
   color: #231f20;
   font-weight: bold;
+  text-transform: capitalize !important;
+  font-family: 'Kumbh Sans', sans-serif !important;
 }
 
 h3 {
   font-size: 22px;
+   text-transform: capitalize !important;
+  font-family: 'Kumbh Sans', sans-serif !important;
 }
 
 .form-control:focus {
@@ -134,7 +158,7 @@ h3 {
 /* topbar start */
 
 .top-navigation-bar {
-  background-color: #000000;
+  background-color: var(--text_color_lighten_20);
 }
 
 .top-navigation-bar ul {
@@ -154,7 +178,8 @@ h3 {
 
 .top-navigation-bar ul li a {
   color: #ffffff;
-  text-transform: uppercase;
+  text-transform: capitalize !important;
+  font-family: 'Kumbh Sans', sans-serif !important;
 }
 
 .top-navigation-bar a:hover, .top-navigation-bar a:focus {
@@ -194,8 +219,10 @@ h3 {
 }
 
 .navbar-area .main-nav .navbar .navbar-nav .nav-item .nav-link {
-  text-transform: capitalize;
+  text-transform: capitalize !important;
+  font-family: 'Kumbh Sans', sans-serif !important;
   font-size: 17px;
+  font-weight: 500;
 }
 
 .navbar-area .main-nav .navbar .navbar-nav .nav-item .nav-link.dropdown-toggle::after {
@@ -710,7 +737,9 @@ h3 {
 
 
 .service-card .service-text {
-  padding: 25px;
+  padding: 15px;
+  min-height: 300px !important;
+
 }
 
 .service-card .service-text ul {
@@ -731,7 +760,7 @@ h3 {
 }
 
 .service-card .service-text h3 {
-  font-size: 22px;
+  font-size: 16px;
   margin-bottom: 0px;
   line-height: 1.4;
 }
@@ -773,7 +802,7 @@ h3 {
 
 /* Why Choose CSS Start */
 .domain-expertise {
-  background: #231f20;
+  background: #e9ecef;
   position: relative;
 }
 
@@ -799,7 +828,7 @@ h3 {
 }
 
 .domain-expertise-text .section-title h2 {
-  color: #ffffff;
+  color: #000;
 }
 
 .domain-expertise-text .media {
@@ -818,13 +847,14 @@ h3 {
 }
 
 .domain-expertise-text .media .media-body {
-  padding-top: 15px;
+  padding-top: 0px;
 }
 
 .domain-expertise-text .media .media-body h5 {
-  color: #ffffff;
+  color: #000;
   font-size: 20px;
   font-weight: 600;
+  padding-bottom: 20px;
 }
 
 .domain-expertise-text .media .media-body p {
@@ -851,10 +881,9 @@ h3 {
 }
 
 .domain-expertise-img {
-  background-image: url(../img/why.choose.jpg);
-  background-position: center center;
-  background-size: cover;
+  background-image: url(../img/expertise.jpg);
   height: 100%;
+  width: 100%;
 }
 
 /* Why Choose CSS End */
@@ -892,7 +921,7 @@ h3 {
 
 .testimonial-items .testimonial-text {
   padding: 50px;
-  background: #231f20;
+  background: #383838;
   margin-top: 35px;
   margin-right: 15px;
 }
@@ -1442,8 +1471,8 @@ h3 {
 
 /* Footer CSS Start */
 .footer-area {
-  background: #231f20;
-  position: relative;
+  background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.5)), url('../../assets/img/footer-background.png') no-repeat
+  center center /cover;
 }
 
 .footer-area::before {
@@ -1555,14 +1584,15 @@ h3 {
   padding-left: 25px;
 }
 
-.footer-area .footer-widget.footer-info ul li:last-child {
+.footer-area .footer-widget.footer-info ul li {
   padding-left: 25px;
 }
 
-.footer-area .footer-widget.footer-info ul li:last-child span {
+.footer-area .footer-widget.footer-info ul li span {
   left: -25px;
   position: relative;
 }
+
 
 .footer-area .footer-widget.pl-60 {
   padding-left: 60px;
@@ -1631,7 +1661,7 @@ h3 {
 }*/
 
 .bottom-nav {
-  background-color: #000000;
+  background-color: #383838;
 }
 
 .bottom-nav ul {
@@ -1646,7 +1676,6 @@ h3 {
 
 .bottom-nav ul li a {
   color: #ffffff;
-  text-transform: uppercase;
 }
 
 .bottom-nav a:hover, .bottom-nav a:focus {

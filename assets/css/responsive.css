@@ -230,7 +230,12 @@
     margin-top: 80px;
   }
 
-  
+.service-card .service-text {
+  padding: 10px;
+  min-height: 430px !important;
+
+}
+
   /*----- Home Page One CSS Start -----*/
   /* Navbar CSS */
   .navbar-area .mobile-nav {
