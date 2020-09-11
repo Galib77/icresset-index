@@ -128,7 +128,7 @@ h3 {
   max-width: 550px;
   margin: 0 auto 15px;
   line-height: 1;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 /*.section-title p {
