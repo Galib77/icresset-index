@@ -46,7 +46,39 @@
                 opacity: .8;
             }
 
+            .col-carousel {
+                margin: 20px 0;
+            }
 
+            /* owl nav */
+            .owl-prev span, .owl-next span {
+                color: #FFF;
+            }
+
+            .owl-prev span:hover, 
+            .owl-next span:hover {
+                color: #8199A3;
+            }
+
+            .owl-prev, .owl-next {
+                position: absolute;
+                top: 0;
+                height: 100%;
+            }
+
+            .owl-prev {
+                left: 7px;
+                
+            }
+
+            .owl-next {
+                right: 7px;
+            }
+
+            /* removing blue outline from buttons */
+            button:focus, button:active {
+               outline: none;
+            }
         </style>
 	</head>
 
@@ -417,6 +449,20 @@
     </section>
 
     <!-- client lists start -->
+<div class="container pb-5">
+    <h2 class="text-center pt-5">Our Clients</h2>
+    <div class="row align-items-center">
+        <div class="col-12 col-carousel">
+            <div class="owl-carousel carousel-main">
+                <div><img src="assets/img/logo/axxis-1.png"></div>
+                <div><img src="assets/img/logo/ceat.png"></div>
+                <div><img src="assets/img/logo/liqui-moly.png"></div>
+                <div><img src="assets/img/logo/motul-1.png"></div>
+                <div><img src="assets/img/logo/thieye.png"></div>
+            </div>
+        </div>
+    </div>
+</div>
 
     <!-- client lists end -->
 
@@ -585,5 +631,18 @@
 		<script src="assets/js/meanmenu.js"></script>
 		<!-- Custom JS -->
 		<script src="assets/js/custom.js"></script>
+
+        <script type="text/javascript">
+            $('.carousel-main').owlCarousel({
+    items: 3,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 1500,
+    margin: 10,
+    nav: true,
+    dots: false,
+    navText: ['<span class="fas fa-chevron-left fa-2x"></span>','<span class="fas fa-chevron-right fa-2x"></span>'],
+})
+        </script>
 </body>
 </html>	
