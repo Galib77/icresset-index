@@ -1912,3 +1912,189 @@ h3 {
 }
 
 /* Back To Top CSS End */
+/* Start New styles - Amitesh */
+:root {
+  --brand-red-color: #ed1a3b;
+  --brand-black-color: #231f20;
+}
+
+.top-navigation-bar {
+  background-color: var(--brand-red-color);
+}
+
+.top-navigation-bar ul li a, 
+.top-navigation-bar ul li span {
+  line-height: 26px;
+  text-shadow: 0px 0px 1px #000000e3;
+}
+.top-navigation-bar ul li a:hover {
+  text-shadow: none;
+}
+.top-navigation-bar .top-menu-divider {
+  color: #dab9b9;
+  padding: 0px 5px;
+}
+
+.logo-image{
+  height: 50px;
+  margin: 3px 0px;
+}
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon{
+  height: 40px;
+  width: 40px;
+  background-size: 50%;
+}
+.carousel-item{
+  height: 400px;
+}
+.carousel-caption{
+  background-color:var(--brand-black-color);
+}
+
+.carousel-caption {
+  background-color: #00000047;
+  left: 0;
+  padding: 10px;
+  border-radius: 2px;
+  bottom: 0px;
+  text-align: left;
+  right: 0;
+  padding-left: 11.5%;
+  padding-bottom: 0px;
+}
+
+.carousel-caption:hover {
+  background-color: #00000060;
+}
+
+.carousel-inner .carousel-caption:hover h2 {
+  color: #ffffffeb !important;
+}
+.carousel-inner .carousel-caption:hover h5 {
+  color: #ffffffb8 !important;
+}
+
+.carousel-inner h2 {
+  color: #ffffffad !important;
+  text-shadow: 0px 1px 1px #080808;
+  font-weight: normal;
+}
+.carousel-inner h5 {
+  color: #ffffffe0 !important;
+  text-shadow: 0px 1px 1px #080808;
+  font-weight: normal;
+  font-size: 20px;
+}
+.carousel-inner h5.caption-first{
+  font-size: 16px;
+  color: #dad8d8 !important;
+  text-transform: none !important;
+}
+.carousel-indicators{
+  display: none;
+}
+
+.our-approach-section{
+  background-color: #ecebeb;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e0dede;
+}
+
+.our-approach-section h2 {
+  margin-bottom: 50px !important;
+  margin-top: 50px !important;
+  font-weight: 400;
+}
+.service-section h2{
+  font-weight: 400;
+}
+.service-divider{
+  padding: 0 5px;
+  font-weight: 300;
+}
+
+.domain-expertise .section-title h2{
+  font-weight: 400;
+  margin: 0 0 30px 0;
+}
+.domain-expertise .default-btn{
+  margin-top:40px;
+}
+.domain-expertise-text .media{
+  margin-bottom:0;
+}
+.use-section .section-title h2 {
+  font-weight: 400;
+}
+.testimonial4_slide img{
+  width: 150px;
+  height: 150px;
+  border: 1px solid #dedede;
+}
+.testimonial .carousel{
+  padding-bottom: 0;
+}
+.testimonial  .heading {
+  margin-bottom: 0;
+}
+.testimonial  .heading h2{
+  margin-top: 20px;
+  font-weight: 400;
+}
+.testimonial {
+  background: #c1c1c1;
+}
+.client-section h2{
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.client-section .owl-carousel .owl-item img{
+  max-width: 100%;
+  /* width: 200px !important; */
+  height: 80px;
+  filter: grayscale(100%);
+}
+.client-section .owl-carousel .owl-item img:hover{
+  filter: grayscale(0);
+}
+.client-section .owl-prev span, 
+.client-section .owl-next span{
+  color: #9c9c9c;
+}
+.client-section .owl-carousel .owl-dots.disabled, 
+.client-section .owl-carousel .owl-nav.disabled{
+  display: initial;
+}
+.footer-area .footer-widget.footer-info ul li{
+  color: #848484;
+}
+.footer-area .footer-widget.footer-info ul li span{
+  color: #dcdcdc;
+}
+.bottom-nav {
+  background-color: var(--brand-red-color);
+}
+.bottom-nav .text-white{
+  text-shadow: 0px 0px 1px #000000e3;
+}
+.top-btn .bx-fade-up{
+  line-height: 1.6;
+}
+
+
+#carouselExampleCaptions .carousel-item img{
+  transition: none;
+  transform: scale(1);
+}
+
+#carouselExampleCaptions .carousel-item.active img,
+.zoomout{
+  transition: transform 12s linear;
+  transform: scale(1.2);
+}
+
+
+/* End new styles - Amitesh */
