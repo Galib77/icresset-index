@@ -458,15 +458,14 @@ h3 {
   background-color: #ffffff;
 }
 .use-section::before {
-  position: absolute;
+  /* position: absolute;
   content: '';
   background: rgba(35, 31, 32);
   height: 100%;
   width: 100%;
   z-index: -1;
   top: 0;
-  left: 0;
-  z-index: -1;
+  left: 0; */
 }
 
 .use-section .section-title h2 {
@@ -2090,10 +2089,29 @@ h3 {
   transform: scale(1);
 }
 
-#carouselExampleCaptions .carousel-item.active img,
-.zoomout{
+#carouselExampleCaptions .carousel-item.active img{
   transition: transform 12s linear;
   transform: scale(1.2);
+}
+
+.banner-section{
+  background-image: url(../img/patterns/6.png);
+  background-repeat: repeat;
+  background-size: 100%;
+  position: relative;
+}
+section.banner-section::before {
+  /* content: '';
+  background: #000000a3;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0; */
+}
+.banner-section .carousel-inner .carousel-item img{
+  width: 100%;
+  height: 100%;
 }
 
 
