@@ -172,7 +172,7 @@ h3 {
   display: flex;
   float: right !important;
   font-size: 12px;
-  color: #ffffff;
+  color: #000;
   padding: 0px 15px
 
 }
@@ -227,8 +227,9 @@ h3 {
 .navbar-area .main-nav .navbar .navbar-nav .nav-item .nav-link {
   text-transform: capitalize !important;
   font-family: 'Kumbh Sans', sans-serif !important;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 500;
+
 }
 
 .navbar-area .main-nav .navbar .navbar-nav .nav-item .nav-link.dropdown-toggle::after {
@@ -253,14 +254,18 @@ h3 {
 }
 
 .navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu .nav-item .nav-link {
-  border-bottom: 1px dashed #2b2a29;
-  background: #e63c56;
-  font-size: 12px !important;
+/*  border-bottom: 1px dashed #2b2a29;*/
+  background: #ffffff;
+  font-size: 15px !important;
+}
+.navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu .nav-item .nav-link.active, 
+.navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu .nav-item .nav-link {
+  color: #000;
 }
 
 .navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu .nav-item .nav-link.active, .navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu .nav-item .nav-link:hover {
-  color: #ffffff;
-  background: #e62341  !important;
+  color: #000;
+  background: #e9ecef  !important;
 }
 
 .navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu .nav-item:last-child .nav-link {
@@ -458,15 +463,14 @@ h3 {
   background-color: #ffffff;
 }
 .use-section::before {
-  position: absolute;
+  /* position: absolute;
   content: '';
   background: rgba(35, 31, 32);
   height: 100%;
   width: 100%;
   z-index: -1;
   top: 0;
-  left: 0;
-  z-index: -1;
+  left: 0; */
 }
 
 .use-section .section-title h2 {
@@ -2087,10 +2091,29 @@ h3 {
   transform: scale(1);
 }
 
-#carouselExampleCaptions .carousel-item.active img,
-.zoomout{
+#carouselExampleCaptions .carousel-item.active img{
   transition: transform 12s linear;
   transform: scale(1.2);
+}
+
+.banner-section{
+  background-image: url(../img/patterns/6.png);
+  background-repeat: repeat;
+  background-size: 100%;
+  position: relative;
+}
+section.banner-section::before {
+  /* content: '';
+  background: #000000a3;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0; */
+}
+.banner-section .carousel-inner .carousel-item img{
+  width: 100%;
+  height: 100%;
 }
 
 
