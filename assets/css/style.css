@@ -754,6 +754,7 @@ h3 {
 .service-card .service-img img {
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  filter: grayscale(1);
 }
 
 
@@ -817,6 +818,7 @@ h3 {
 .service-card:hover .service-img img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  filter: grayscale(0);
 }
 
 /* Service CSS End */
@@ -886,21 +888,22 @@ h3 {
 
 .counter-area .counter-text {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 .counter-area .counter-text h2 {
-  color: #ed1a3b;
+  color: var(--brand-red-color) !important;
   font-size: 45px;
   font-weight: 700;
   text-align: center;
 }
 
 .counter-area .counter-text p {
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 15px;
-  text-align: center;
+  color: #ababab;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
 }
 
 .domain-expertise-img {
@@ -1699,7 +1702,7 @@ h3 {
 
 /* Footer CSS Start */
 .footer-area {
-  background: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.9)), url('../../assets/img/footer-background.png') no-repeat
+  background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), url('../../assets/img/footer-background.png') no-repeat
   center center /cover;
 }
 
@@ -1755,7 +1758,7 @@ h3 {
 .footer-area .footer-widget h3::before {
   position: absolute;
   content: '';
-  background: #ffffff;
+  background: #848484;
   height: 2px;
   width: 50px;
   left: 0;
@@ -2071,9 +2074,11 @@ h3 {
 }
 .footer-area .footer-widget.footer-info ul li{
   color: #848484;
+  font-size: 14px;
 }
 .footer-area .footer-widget.footer-info ul li span{
   color: #dcdcdc;
+  font-size: 17px;
 }
 .bottom-nav {
   background-color: var(--brand-red-color);
@@ -2159,5 +2164,23 @@ section.quote-section{
 .quote-section img{
   margin-top: -14px;
 }
+.img-grayscale{
+  filter: grayscale(1);
+  
+}
+.img-grayscale:hover{
+  filter: grayscale(0);
+}
 
+.domain-expertise .img-grayscale{
+  transform: scale(1);
+  transition: 0.25s;
+}
+.domain-expertise .img-grayscale:hover{
+  transform: scale(1.01);
+}
+
+.main-nav nav .navbar-nav .nav-item .dropdown-menu{
+  width: 350px;
+}
 /* End new styles - Amitesh */
