@@ -50,7 +50,7 @@ jQuery(function ($) {
     })
 
     // Nice Select
-    $('select').niceSelect();
+    // $('select').niceSelect();
 
 
     // Tastimonial Two Slider JS
@@ -90,7 +90,7 @@ jQuery(function ($) {
             "<i class='bx bx-chevrons-left'></i>",
             "<i class='bx bx-chevrons-right bx-tada'></i>"
         ]
-    })
+    });
 
     setTimeout(function(){
         $('#carouselExampleCaptions .carousel-item.active img').css({transform: 'scale(1.3)'});
