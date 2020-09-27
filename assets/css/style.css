@@ -886,6 +886,7 @@ h3 {
   font-size: 20px;
   font-weight: 600;
   padding-bottom: 20px;
+  line-height: 32px;
 }
 
 .domain-expertise-text .media .media-body p {
@@ -2183,12 +2184,50 @@ section.quote-section{
 .domain-expertise .img-grayscale{
   transform: scale(1);
   transition: 0.25s;
+  border: 1px solid #dedede;
 }
 .domain-expertise .img-grayscale:hover{
   transform: scale(1.01);
+  border: 1px solid #d0cdcd;
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu{
   width: 350px;
+}
+
+.domain-expertise-text .media .media-body ul{
+  list-style-type: square;
+}
+
+.domain-expertise-text .media .media-body ul li{
+  padding-bottom: 20px;
+}
+
+.navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li:last-child {
+  border-bottom: 1px solid red;
+}
+
+.navbar-area .main-nav .navbar .navbar-nav .nav-item img{
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.left-bracket, 
+.right-bracket{
+  display: inline-block;
+  /* border: 1px solid blue; */
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 21px;
+}
+.left-bracket{
+  background-image: url(../img/icons/red-left-arrow.png);
+  padding-left: 6px;
+}
+.right-bracket{
+  background-image: url(../img/icons/red-right-arrow.png);
+  margin-left: -9px;
+  width: 10px;
+  margin-right: 1px;
 }
 /* End new styles - Amitesh */
