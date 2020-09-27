@@ -812,6 +812,14 @@ h3 {
   top: 2px;
   position: relative;
 }
+.service-card .service-text .service-btn img {
+  height: 18px;
+  margin-top: -1px;
+}
+.service-card .service-text .service-btn:hover img {
+  filter: grayscale(1);
+}
+
 .service-card .service-img img {
   width: 100%;
 }
