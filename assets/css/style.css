@@ -2200,7 +2200,20 @@ section.quote-section{
 }
 
 .domain-expertise-text .media .media-body ul li{
-  padding-bottom: 20px;
+  padding-bottom: 15px;
+  position: relative;
+  list-style: none;
+}
+
+.domain-expertise-text .media .media-body ul li::before{
+  content: "•";
+  position: absolute;
+  font-size: 50px;
+  margin-left: -20px;
+  top: 9px;
+  left: 0;
+  line-height: 17px;
+  color: var(--brand-red-color);
 }
 
 .navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li:last-child {
