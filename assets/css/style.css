@@ -183,14 +183,14 @@ h3 {
 
 
 .top-navigation-bar ul li a {
-  color: #ffffff;
+  color: #000;
   text-transform: capitalize !important;
   font-family: 'Kumbh Sans', sans-serif !important;
 }
 
 .top-navigation-bar a:hover, .top-navigation-bar a:focus {
     text-decoration: none;
-    color: #000;
+    color: #e41d37;
 } 
 
 .top-navigation-bar .top-menu-divider {
@@ -760,8 +760,7 @@ h3 {
 
 .service-card .service-text {
   padding: 15px;
-  min-height: 300px !important;
-
+  min-height: 250px !important;
 }
 
 .service-card .service-text ul {
@@ -797,11 +796,12 @@ h3 {
 
 .service-card .service-text p {
   margin-bottom: 10px;
+  font-size: 15px;
 }
 
 .service-card .service-text .service-btn {
   color: #ed1a3b;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .service-card .service-text .service-btn:hover {
@@ -1932,7 +1932,7 @@ h3 {
 }
 
 .top-navigation-bar {
-  background-color: var(--brand-red-color);
+  background-color: #ffffff;
 }
 
 .top-navigation-bar ul li a, 
@@ -1959,9 +1959,9 @@ h3 {
   width: 40px;
   background-size: 50%;
 }
-.carousel-item{
+/*.carousel-item{
   height: 400px;
-}
+}*/
 .carousel-caption{
   background-color:var(--brand-black-color);
 }
@@ -2110,12 +2110,12 @@ h3 {
   transform: scale(1.2);
 }
 
-.banner-section{
+/*.banner-section{
   background-image: url(../img/patterns/6.png);
   background-repeat: repeat;
   background-size: 100%;
   position: relative;
-}
+}*/
 section.banner-section::before {
   /* content: '';
   background: #000000a3;
@@ -2126,15 +2126,14 @@ section.banner-section::before {
   top: 0; */
 }
 .banner-section .carousel-inner .carousel-item img{
-  width: 100%;
-  height: 100%;
+  width: 100% !important;
 }
 
 h3.service-tile-title{
-  padding: 15px;
+  padding: 8px 2px 2px 2px;
   background-color: var(--brand-red-color);
-  font-size: 16px;
-  line-height: 1.4;
+  font-size: 15px;
+  text-align: center;
 }
 h3.service-tile-title a{
   /* color: var(--brand-black-color); */
@@ -2163,7 +2162,7 @@ h3.service-tile-title a:hover .service-divider{
 
 section.quote-section{
    background-color: #e4e7e6;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     background-image: url(../img/quotes.jpg);
     background-repeat: no-repeat;
     background-size: contain;
