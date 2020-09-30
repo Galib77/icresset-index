@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Catamaran:400,600|IBM+Plex+Sans:400,500,500i,600,700&amp;display=swap");
-*/
+/* @import url("https://fonts.googleapis.com/css?family=Catamaran:400,600|IBM+Plex+Sans:400,500,500i,600,700&amp;display=swap"); */
+
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
 /* Font Variables */
 /* Color Variables */
@@ -1999,6 +1999,7 @@ h3 {
   text-shadow: 0px 1px 1px #080808;
   font-weight: normal;
   font-size: 20px;
+  padding-left: 21px;
 }
 .carousel-inner h5.caption-first{
   font-size: 16px;
@@ -2139,6 +2140,8 @@ h3.service-tile-title a{
   /* color: var(--brand-black-color); */
   color: #fff;
   transition: none;
+  line-height: 1.4;
+  text-transform: uppercase !important;
 }
 h3.service-tile-title a:hover,
 h3.service-tile-title a:hover .service-divider{
@@ -2256,17 +2259,30 @@ section.quote-section{
   display: inline-block;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 35px;
-  width: 15px;
+  height: 43px;
+  width: 20px;
 }
 .banner-left-bracket{
   background-image: url(../img/icons/red-left-arrow.png);
-  margin-right: -5px;
-  margin-bottom: -6px;
+  margin-right: -10px;
+  margin-bottom: -8px;
 }
 .banner-right-bracket{
   background-image: url(../img/icons/red-right-arrow.png);
-  margin-left: -5px;
-  margin-bottom: -6px;
+  margin-left: -12px;
+  margin-bottom: -13px;
+}
+
+.quote-section .section-title{
+  margin-bottom: 0;
+}
+.quote-section .section-title h3{
+  background-image: url(../img/chess.png);
+  background-repeat: no-repeat;
+  background-size: 11%;
+  background-position: -8px center;
+  /* height: 180px; */
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 /* End new styles - Amitesh 
