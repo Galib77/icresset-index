@@ -2259,18 +2259,18 @@ section.quote-section{
   display: inline-block;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 30px;
+  height: 25px;
   width: 15px;
 }
 .banner-left-bracket{
   background-image: url(../img/icons/red-left-arrow.png);
-  margin-right: 0px;
-  margin-bottom: -8px;
+  margin-right: -8px;
+  margin-bottom: -5px;
 }
 .banner-right-bracket{
   background-image: url(../img/icons/red-right-arrow.png);
-  margin-left: 0px;
-  margin-bottom: -8px;
+  margin-left: -10px;
+  margin-bottom: -7px;
 }
 
 .quote-section .section-title{
