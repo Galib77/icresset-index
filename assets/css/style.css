@@ -2292,6 +2292,11 @@ section.quote-section{
   margin-bottom: 5px;
 }
 
+.navbar-area.is-sticky{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .top-navigation-bar ul li a, 
 .top-navigation-bar ul li span {
   line-height: 26px;
