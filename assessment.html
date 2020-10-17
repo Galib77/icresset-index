@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="zxx">
     
-	<head>
+    <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,20 +15,79 @@
         <link rel="stylesheet" href="assets/css/meanmenu.css">
         <!-- Style CSS -->
         <link rel="stylesheet" href="assets/css/style.css">
-		<!-- Responsive CSS -->
+        <!-- Responsive CSS -->
         <link rel="stylesheet" href="assets/css/responsive.css">
         <!-- Title CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
         <title>iCresset &#8211; Millennial Leadership. Sharpened.</title>
         <!-- Favicon -->
         <link rel="icon" type="image/png" href="assets/img/iCresset-fevicon.png">  
- 
-	</head>
 
-	<body>
-		<!-- text -->	
-		<!-- top header start -->
-	<section class="top-navigation-bar">
+           <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script>
+    function AddReadMore() {
+        //This limit you can set after how much characters you want to show Read More.
+        var carLmt = 200;
+        // Text to show when text is collapsed
+        var readMoreTxt = " ... Read More";
+        // Text to show when text is expanded
+        var readLessTxt = " Read Less";
+
+
+        //Traverse all selectors with this class and manupulate HTML part to show Read More
+        $(".addReadMore").each(function() {
+            if ($(this).find(".firstSec").length)
+                return;
+
+            var allstr = $(this).text();
+            if (allstr.length > carLmt) {
+                var firstSet = allstr.substring(0, carLmt);
+                var secdHalf = allstr.substring(carLmt, allstr.length);
+                var strtoadd = firstSet + "<span class='SecSec'>" + secdHalf + "</span><span class='readMore'  title='Click to Show More'>" + readMoreTxt + "</span><span class='readLess' title='Click to Show Less'>" + readLessTxt + "</span>";
+                $(this).html(strtoadd);
+            }
+
+        });
+        //Read More and Read Less Click Event binding
+        $(document).on("click", ".readMore,.readLess", function() {
+            $(this).closest(".addReadMore").toggleClass("showlesscontent showmorecontent");
+        });
+    }
+    $(function() {
+        //Calling function after Page Load
+        AddReadMore();
+    });
+    </script>
+    <style>
+    .addReadMore.showlesscontent .SecSec,
+    .addReadMore.showlesscontent .readLess {
+        display: none;
+    }
+
+    .addReadMore.showmorecontent .readMore {
+        display: none;
+    }
+
+    .addReadMore .readMore,
+    .addReadMore .readLess {
+        font-weight: bold;
+        margin-left: 2px;
+        color: blue;
+        cursor: pointer;
+    }
+
+    .addReadMoreWrapTxt.showmorecontent .SecSec,
+    .addReadMoreWrapTxt.showmorecontent .readLess {
+        display: block;
+    }
+    </style>
+ 
+    </head>
+
+    <body>
+        <!-- text -->   
+        <!-- top header start -->
+    <section class="top-navigation-bar">
       <div class="container">
        <div class="row">
             <div class="col-md-6"></div>
@@ -44,10 +103,8 @@
         </div>      
         </div>      
     </section>
-		<!-- top header end -->
-
-			
-        <!-- Navbar Area Start -->
+        <!-- top header end -->
+            <!-- Navbar Area Start -->
          <div class="navbar-area">
             <!-- Menu For Mobile Device -->
             <div class="mobile-nav">
@@ -221,88 +278,85 @@
         </div>
         <!-- Navbar Area End -->
 
-		        <!-- Page Title Start -->
+                <!-- Page Title Start -->
         <section class="page-title title-bg"></section>
         <!-- Page Title End -->
 
-        <!-- team Details Start -->
-        <section class="team-details pt-50 pb-50">
+        <section class="assessment-details pt-50 pb-50">
             <div class="container">
-            	<div class="section-title text-center">
-                    <h2>MEET OUR TEAM</h2>
-                    <p>What your organization needs is Talent Consultants who are able to adopt a 360<sup>0</sup> perspective perfectly aligned to your corporate strategy. We understand human resources as the foundation for your organization’s growth. Our dedicated pool of Talent Consultants has a collective experience of 300+ man years spanning an eclectic mix of domains.  Leadership team includes:</p>
+            <div class="section-title">
+                    <h4>ASSESSMENT</h4>
+                    <p>In today’s “candidate-driven” market, how you look for talent and the nature of recruitment processes has changed. Candidates look for crisp and engaging hiring experiences and appreciate transparency. iCresset’s Assessment solutions equip your organization with a future roadmap for growth. Beyond just acquiring and managing the best talent, it creates a talent pool that continuously up-scales to your organization’s growth strategies.</p>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 mt-5">
-                        <div class="team-profile">
-                            <img src="assets/img/client-1.png" alt="team image">
-                            <h3>Saurabh Sinha</h3>
-                            <h6 class="text-center text-muted">Managing Partner, iCresset Talent Solutions </h6>
+                    <div class="col-lg-12">
+                        <div class="assessment-details-card">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <div class="assessment-details-info">
+                                        <h3>
+                                          Job Fit Assessments 
+                                        </h3>
+                                       <p>
+                                        These world class Assessment Solutions come with a suite of intuitive, analytical and outcome-oriented reports which predict the best fit individuals who are aligned with your organization’s culture and simultaneously meet the key hiring & Succession planning objectives.
+                                       </p>
+                                         <h3>Job Fit Assessments</h3>
+    <p class="addReadMore showlesscontent">These world class Assessment Solutions come with a suite of intuitive, analytical and outcome-oriented reports which predict the best fit individuals who are aligned with your organization’s culture and simultaneously meet the key hiring & Succession planning objectives.</p>
 
-                            <ul>
-                                <li>                                 
-                                    <p>
-                                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                                        <span>IIM Lucknow Alumnus, 2000 Batch ,PGDM, B.Sc Mathematics, NTSE Scholarship Holder</span>
-                                    </p>
-                                </li>
-                                <li>                                   
-                                    <p>
-                                        <i class="fa fa-user" aria-hidden="true"></i>
-                                        <span>Certified Saville, Prevue& Profiles International Psychometric Assessor</span>
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 mt-5">
-                        <div class="team-info-text">
-                            <h3>About Me</h3>
-                            <p>Spanning a rich career graph across Pharma Sales, R&D, Manufacturing and Executive Search, Saurabh has spearheaded multi-million dollar global HR projects for some of India’s top line Pharma multinational companies. Saurabh brings to the table proven expertise in Operations Management, Strategy & Networking. He is a Certified Psychometric Assessor and one of the sharpest brains around with various national level scholarships to his credit.</p>
-                            <p class="pt-3">
-                            	Saurabh heads Operations & Strategy at iCresset, while personally overseeing Clevel+1 Executive Search assignments.
-                            </p>
+     <h3>Show More Content</h3>
+    <p class="addReadMore showlesscontent">Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird, wenn er sich ein Layout ansieht. Der Punkt, Lorem Ipsum zu nutzen, ist, dass es mehr oder weniger die normale Anordnung von Buchstaben darstellt und somit nach lesbarer Sprache aussieht. Viele Desktop Publisher und Webeditoren nutzen mittlerweile Lorem Ipsum als den Standardtext, auch die Suche im Internet nach "lorem ipsum" macht viele Webseiten sichtbar, wo diese noch immer vorkommen. Mittlerweile gibt es mehrere Versionen des Lorem Ipsum, einige zufällig, andere bewusst (beeinflusst von Witz und des eigenen Geschmacks)Es ist ein lang erwiesener Fakt</p>
+
+     <h3>Show More Content</h3>
+    <p class="addReadMore showlesscontent">Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird, wenn er sich ein Layout ansieht. Der Punkt, Lorem Ipsum zu nutzen, ist, dass es mehr oder weniger die normale Anordnung von Buchstaben darstellt und somit nach lesbarer Sprache aussieht. Viele Desktop Publisher und Webeditoren nutzen mittlerweile Lorem Ipsum als den Standardtext, auch die Suche im Internet nach "lorem ipsum" macht viele Webseiten sichtbar, wo diese noch immer vorkommen. Mittlerweile gibt es mehrere Versionen des Lorem Ipsum, einige zufällig, andere bewusst (beeinflusst von Witz und des eigenen Geschmacks)Es ist ein lang erwiesener Fakt</p>
+                                    </div>
+                                </div>
+                               
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 mt-5">
-                        <div class="team-profile">
-                            <img src="assets/img/client-1.png" alt="team image">
-                            <h3>Tusharika Sinha</h3>
-                            <h6 class="text-center text-muted">Senior Partner, iCresset Talent Solutions </h6>
-
-                            <ul>
-                                <li>                                 
-                                    <p>
-                                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                                        <span>IIM Ahmedabad Alumnus, 2003 Batch, PGP FABM,B.A.Sc Food Technology, Certified Six Sigma </span>
-                                    </p>
-                                </li>
-                                <li>                                   
-                                    <p>
-                                        <i class="fa fa-user" aria-hidden="true"></i>
-                                        <span>Black Belt, Certified Saville, Prevue& Profiles International Psychometric Assessor</span>
-                                    </p>
-                                </li>
-                            </ul>
+                    <div class="col-lg-12">
+                        <div class="assessment-details-card">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <div class="assessment-details-info">
+                                        <h3>
+                                           Executive 
+                                           <span class="board-left-bracket"></span>
+                                                Re
+                                            <span class="board-right-bracket"></span>    
+                                            Search 
+                                        </h3>
+                                       <p>
+                                        True leaders are rare – capability to spot and discern them from usual loud mouths is rarer! Armed with outstanding Domain expertise in targeted sectors, inherent wisdom to assess the leadership potential and armed with diligently mapped network & processes to head hunt the Best Fit talent for you, we have all the right ingredients to help you experience a new high in Leadership Hiring.
+                                        </p>
+                                       k="myFunction()" id="myBtn"> Read more</a>
+                                       
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-8 mt-5">
-                        <div class="team-info-text">
-                            <h3>About Me</h3>
-                            <p>With 17 years of diverse corporate experience in Agri- Sales, Product Management, Rural Marketing & Strategy, P&L Ownership, Process Excellence & Executive Search, Tusharika is a Certified Psychometric Assessor and ASQ Certified Six Sigma Black Belt. Amongst her milestones in a successful career, she had played a leading role in one of the fastest growing BUs in the Agri space and was head of Process Improvement Projects across Training, Recruitment, Customer Service, Collections, HR Processes and BPMS accruing benefits of INR 40 million.</p>
-                            <p class="pt-3">
-                            	Recipient of  the Annual Leadership Excellent Award for exemplary contribution to Process Excellence during her corporate career, Tusharika is an expert in Talent Mapping, Talent Assessment & Talent Analytics, spanning a career of more than a decade in this space.
-                            </p>
-                             <p class="pt-3">
-                            	Tusharika heads the BD function & the Assessment vertical at iCresset and is Domain Expert for Agri, Food, ITes, Analytics and Allied Sectors.
-                            </p>
+
+                    <div class="col-lg-12">
+                        <div class="assessment-details-card">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <div class="assessment-details-info">
+                                        <h3>
+                                           Strategic assessment Mandates | Startups   
+                                        </h3>
+                                       <p>
+                                        We are with you to put in place the full lifecycle recruitment process. Use our in-depth domain expertise to your advantage for insights on current sectoral talent trends, measuring performance through yardstick of our proprietary tools and creating a positive hiring experience for all candidates.
+                                       </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- team Details End -->
 
         <!-- Footer Section Start -->
         <footer class="footer-area pt-50 pb-50">
@@ -454,18 +508,19 @@
         <!-- Footer Section End -->
 
 
-		<!-- Back To Top Start -->
-		<div class="top-btn">
-			<i class='bx bx-chevrons-up bx-fade-up'></i>
-		</div>
-		<!-- Back To Top End -->
-			<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="assets/js/jquery-3.5.0.min.js"></script>
-		<script src="assets/js/popper.min.js"></script>
-		<script src="assets/js/bootstrap.min.js"></script>
-		<!-- Meanmenu JS -->
-		<script src="assets/js/meanmenu.js"></script>
-		<!-- Custom JS -->
-		<script src="assets/js/custom.js"></script>
+        <!-- Back To Top Start -->
+        <div class="top-btn">
+            <i class='bx bx-chevrons-up bx-fade-up'></i>
+        </div>
+        <!-- Back To Top End -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="assets/js/jquery-3.5.0.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!-- Meanmenu JS -->
+        <script src="assets/js/meanmenu.js"></script>
+        <!-- Custom JS -->
+        <script src="assets/js/custom.js"></script>
+
 </body>
-</html>	
+</html> 
