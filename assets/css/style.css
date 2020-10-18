@@ -328,8 +328,8 @@ h3 {
 .page-title {
   background-position: center center;
   background-size: cover;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   position: relative;
   z-index: 1;
   text-align: center;
@@ -1638,73 +1638,7 @@ h3 {
 
 /*----------  Blog Details Page CSS End ----------*/
 
-/* time line*/
-.timeline{
-  width:100%;
-  background-color: #231f20;
-  color:#fff;
-  padding:30px 20px;
-  box-shadow:0px 0px 10px rgba(0,0,0,.5);
-}
-.timeline ul{
-  list-style-type:none;
-  border-left:2px solid #ffffff;
-  padding:10px 5px;
-}
-.timeline ul li{
-  padding:20px 20px;
-  position:relative;
-  cursor:pointer;
-  transition:.5s;
-}
-.timeline ul li span{
-  display:inline-block;
-  background-color:#ed1a3b;
-  border-radius:25px;
-  padding:2px 5px;
-  font-size:15px;
-  text-align:center;
-}
-.timeline ul li .content h3{
-  color:#ffffff;
-  font-size:17px;
-  padding-top:5px;
-}
-.timeline ul li .content p{
-  padding:5px 0px 15px 0px;
-  color: #ffffff;
-  font-size:15px;
-}
-.timeline ul li:before{
-  position:absolute;
-  content:'';
-  width:10px;
-  height:10px;
-  background-color:#b90824;
-  border-radius:50%;
-  left:-11px;
-  top:28px;
-  transition:.5s;
-}
-.timeline ul li:hover{
-  background-color: #b90824;
-}
-.timeline ul li:hover:before{
-  background-color: #ef1a4e;
-  box-shadow:0px 0px 10px 2px #ffffff;
-}
-@media (max-width:300px){
-  .timeline{
-    width:100%;
-    padding:30px 5px 30px 10px;
-  }
-  .timeline ul li .content h3{
-    color:#34ace0;
-    font-size:15px;
-  }
 
-}
-/* time line end*/
 
 
 
@@ -2314,3 +2248,457 @@ section.quote-section{
   color: #000;
 }
 /* End new styles - Amitesh 
+
+
+/*----------About us page start ----------*/
+.page-title.title-bg8 {
+  background-image: url(../img/title-bg/8.jpg);
+}
+
+.team-profile {
+  text-align: center;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.team-profile img {
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+.team-profile h3 {
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+.team-profile span {
+  font-size: 14px;
+}
+.team-profile p {
+  font-size: 16px;
+}
+
+.team-profile ul {
+  padding-left: 0;
+  margin-bottom: 25px;
+}
+
+.team-profile ul li {
+  list-style: none;
+}
+
+.team-profile ul li a {
+  color: #707070;
+  font-size: 17px;
+}
+
+.team-profile ul li a i {
+  margin-right: 10px;
+}
+
+.team-profile .team-social a {
+  color: #707070;
+}
+
+.team-profile .team-social a i {
+  border: 1px solid;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 3px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.team-profile .team-social a i:hover {
+  background: #001935;
+  color: #ffffff;
+}
+
+.team-info-text {
+  margin-bottom: 25px;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.team-info-text h3 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.team-info-text p {
+  margin-bottom: 0;
+}
+
+.team-info-text.team-education .education-info {
+  margin-bottom: 20px;
+}
+
+.team-info-text.team-education .education-info h4 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.team-info-text.team-education .education-info p {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.team-info-text.team-education .education-info span {
+  font-size: 16px;
+}
+
+.team-info-text.team-experience ul {
+  padding-left: 20px;
+}
+
+.team-info-text.team-experience ul li {
+  list-style: circle;
+}
+
+.team-info-text.team-skill ul {
+  padding-left: 0;
+}
+
+.team-info-text.team-skill ul li {
+  list-style: none;
+  display: inline-block;
+  border: 1px solid #ddd;
+  padding: 5px 15px;
+  line-height: 1;
+  margin-right: 8px;
+  margin-bottom: 10px;
+}
+
+.team-info-text .theme-btn .default-btn {
+  margin: 0 5px;
+}
+
+/*----------About us page end ----------*/
+
+
+/*------ acquisition page end ---*/
+.acquisition-details {
+  background: #fdf8f7;
+  position: relative;
+}
+.acquisition-details .section-title h4 {
+  text-align: left !important;
+  color: #ed1a3b;
+}
+.acquisition-details .section-title h4::before {
+    position: absolute;
+    content: '';
+    background: #ed1a3b;
+    height: 2px;
+    width: 80px;
+    left: 5;
+    top: 80px;
+}
+
+.acquisition-details::before {
+  position: absolute;
+  content: '';
+  background-image: url(../img/shape/job.png);
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: .02;
+}
+
+.acquisition-details-card {
+  background: #ffffff;
+  margin-bottom: 30px;
+  padding: 40px 30px;
+}
+
+.board-researchbracket-icon {
+    background-image: url(../img/icons/red-right-arrow.png);
+    width: 100%;
+    height: 
+    margin-left: -10px;
+    margin-bottom: -7px;
+}
+
+.board-left-bracket, 
+.board-right-bracket {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 25px;
+  width: 15px;
+}
+.board-left-bracket{
+  background-image: url(../img/icons/red-left-arrow.png);
+  margin-right: -8px;
+  margin-bottom: -5px;
+}
+.board-right-bracket{
+  background-image: url(../img/icons/red-right-arrow.png);
+  margin-left: -8px;
+  margin-bottom: -5px;
+}
+
+.acquisition-details-info a {
+  color: #ed1a3b; 
+  cursor: pointer;
+}
+
+
+/* acquisition page end */
+
+/* assessment page start */
+
+.assessment-details {
+  background: #fdf8f7;
+  position: relative;
+}
+.assessment-details .section-title h4 {
+  text-align: left !important;
+  color: #ed1a3b;
+}
+.assessment-details .section-title h4::before {
+    position: absolute;
+    content: '';
+    background: #ed1a3b;
+    height: 2px;
+    width: 80px;
+    left: 5;
+    top: 80px;
+}
+
+.assessment-details::before {
+  position: absolute;
+  content: '';
+  background-image: url(../img/shape/job.png);
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: .02;
+}
+
+.assessment-details-card {
+  background: #ffffff;
+  margin-bottom: 30px;
+  padding: 40px 30px;
+}
+
+.board-researchbracket-icon {
+    background-image: url(../img/icons/red-right-arrow.png);
+    width: 100%;
+    height: 
+    margin-left: -10px;
+    margin-bottom: -7px;
+}
+
+.assessment-details-info a {
+  color: #ed1a3b; 
+  cursor: pointer;
+}
+
+/* assessment page end */
+
+
+/* research page start */
+
+.research-details {
+  background: #fdf8f7;
+  position: relative;
+}
+.research-details .section-title h4 {
+  text-align: left !important;
+  color: #ed1a3b;
+}
+.research-details .section-title h4::before {
+    position: absolute;
+    content: '';
+    background: #ed1a3b;
+    height: 2px;
+    width: 80px;
+    left: 5;
+    top: 80px;
+}
+
+.research-details::before {
+  position: absolute;
+  content: '';
+  background-image: url(../img/shape/job.png);
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: .02;
+}
+
+.research-details-card {
+  background: #ffffff;
+  margin-bottom: 30px;
+  padding: 40px 30px;
+}
+
+.research-details-info a {
+  color: #ed1a3b; 
+  cursor: pointer;
+}
+
+/* time line*/
+.timeline{
+  width:100%;
+  background-color: #231f20;
+  color:#fff;
+  padding:30px 20px;
+  box-shadow:0px 0px 10px rgba(0,0,0,.5);
+}
+.timeline ul{
+  list-style-type:none;
+  border-left:2px solid #ffffff;
+  padding:10px 5px;
+}
+.timeline ul li{
+  padding:20px 20px;
+  position:relative;
+  cursor:pointer;
+  transition:.5s;
+}
+.timeline ul li span{
+  display:inline-block;
+  background-color:#ed1a3b;
+  border-radius:25px;
+  padding:2px 5px;
+  font-size:15px;
+  text-align:center;
+}
+.timeline ul li .content h3{
+  color:#ffffff;
+  font-size:17px;
+  padding-top:5px;
+}
+.timeline ul li .content p{
+  padding:5px 0px 15px 0px;
+  color: #ffffff;
+  font-size:15px;
+}
+.timeline ul li:before{
+  position:absolute;
+  content:'';
+  width:10px;
+  height:10px;
+  background-color:#b90824;
+  border-radius:50%;
+  left:-11px;
+  top:28px;
+  transition:.5s;
+}
+.timeline ul li:hover{
+  background-color: #b90824;
+}
+.timeline ul li:hover:before{
+  background-color: #ef1a4e;
+  box-shadow:0px 0px 10px 2px #ffffff;
+}
+@media (max-width:300px){
+  .timeline{
+    width:100%;
+    padding:30px 5px 30px 10px;
+  }
+  .timeline ul li .content h3{
+    color:#34ace0;
+    font-size:15px;
+  }
+
+}
+/* time line end*/
+
+/* research page end */
+
+
+/* domain page start */
+
+.domain-details {
+  background: #fdf8f7;
+  position: relative;
+}
+.domain-details .section-title h4 {
+  text-align: left !important;
+  color: #ed1a3b;
+}
+.domain-details .section-title h4::before {
+    position: absolute;
+    content: '';
+    background: #ed1a3b;
+    height: 2px;
+    width: 80px;
+    left: 5;
+    top: 80px;
+}
+
+.domain-details::before {
+  position: absolute;
+  content: '';
+  background-image: url(../img/shape/job.png);
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: .02;
+}
+
+.domain-details-card {
+  background: #ffffff;
+  margin-bottom: 30px;
+  padding: 40px 30px;
+}
+
+.domain-details-info a {
+  color: #ed1a3b; 
+  cursor: pointer;
+}
+
+/* domain page end */
+
+
+
+/* opportunities page start */
+.opportunities-details {
+  background: #fdf8f7;
+  position: relative;
+}
+.opportunities-details .section-title h4 {
+  text-align: left !important;
+  color: #ed1a3b;
+}
+.opportunities-details .section-title h4::before {
+    position: absolute;
+    content: '';
+    background: #ed1a3b;
+    height: 2px;
+    width: 80px;
+    left: 5;
+    top: 80px;
+}
+.opportunities-details::before {
+  position: absolute;
+  content: '';
+  background-image: url(../img/shape/job.png);
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: .02;
+}
+/* opportunities page end */
