@@ -34,63 +34,78 @@ jQuery(function ($) {
     });
 
      // Tastimonial Slider JS
-    $('.testimonial-slider').owlCarousel({
-        loop:true,
-        margin:30,
-        nav:true,
-        dots:false,
-        items:1,
-        smartSpeed:2500,
-        autoplay:false,
-        autoplayTimeout:4000,
-        navText:[
-            "<i class='bx bx-chevrons-left'></i>",
-            "<i class='bx bx-chevrons-right bx-tada'></i>"
-        ]
-    })
+    // $('.testimonial-slider').owlCarousel({
+    //     loop:true,
+    //     margin:30,
+    //     nav:true,
+    //     dots:false,
+    //     items:1,
+    //     smartSpeed:2500,
+    //     autoplay:false,
+    //     autoplayTimeout:4000,
+    //     navText:[
+    //         "<i class='bx bx-chevrons-left'></i>",
+    //         "<i class='bx bx-chevrons-right bx-tada'></i>"
+    //     ]
+    // })
 
     // Nice Select
     // $('select').niceSelect();
 
 
     // Tastimonial Two Slider JS
-    $('.testimonial-slider-two').owlCarousel({
-        loop:true,
-        margin:30,
-        nav:true,
-        dots:false,
-        smartSpeed:2500,
-        autoplay:false,
-        autoplayTimeout:4000,
-        navText:[
-            "<i class='bx bx-chevrons-left bx-tada'></i>",
-            "<i class='bx bx-chevrons-right bx-tada'></i>"
-        ],
-        responsive:{
-            0:{
-                items:1
-            },
-            768:{
-                items:2
-            }
-        }
-    })
+    // $('.testimonial-slider-two').owlCarousel({
+    //     loop:true,
+    //     margin:30,
+    //     nav:true,
+    //     dots:false,
+    //     smartSpeed:2500,
+    //     autoplay:false,
+    //     autoplayTimeout:4000,
+    //     navText:[
+    //         "<i class='bx bx-chevrons-left bx-tada'></i>",
+    //         "<i class='bx bx-chevrons-right bx-tada'></i>"
+    //     ],
+    //     responsive:{
+    //         0:{
+    //             items:1
+    //         },
+    //         768:{
+    //             items:2
+    //         }
+    //     }
+    // })
    
        // Tastimonial Slider JS
-    $('.testimonial-slider').owlCarousel({
-        loop:true,
-        margin:30,
-        nav:true,
-        dots:false,
-        items:1,
-        smartSpeed:2500,
-        autoplay:false,
-        autoplayTimeout:4000,
-        navText:[
-            "<i class='bx bx-chevrons-left'></i>",
-            "<i class='bx bx-chevrons-right bx-tada'></i>"
-        ]
-    });
+    // $('.testimonial-slider').owlCarousel({
+    //     loop:true,
+    //     margin:30,
+    //     nav:true,
+    //     dots:false,
+    //     items:1,
+    //     smartSpeed:2500,
+    //     autoplay:false,
+    //     autoplayTimeout:4000,
+    //     navText:[
+    //         "<i class='bx bx-chevrons-left'></i>",
+    //         "<i class='bx bx-chevrons-right bx-tada'></i>"
+    //     ]
+    // });
+
+        $('#carouselExampleCaptions').on('slide.bs.carousel', function (event) {
+            setTimeout(function(){
+                $('.carousel-inner .typewritter').toggleClass('typewritter1 typewritter');
+            }, 200);
+        });
+
+        $([0,1,2,3]).each(function(index){
+            var idx = index;
+            $('.slide'+ idx +'-banner-text .dot').on('animationend', function(){
+                $('.slide'+ idx +'-banner-text .typewritter1').toggleClass('typewritter1 typewritter');
+    
+            });
+        });
+        
 
     setTimeout(function(){
         $('#carouselExampleCaptions .carousel-item.active img').css({transform: 'scale(1.3)'});

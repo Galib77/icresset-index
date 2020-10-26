@@ -2199,12 +2199,12 @@ section.quote-section{
 .banner-left-bracket{
   background-image: url(../img/icons/red-left-arrow.png);
   margin-right: -12px;
-  margin-bottom: -5px;
+  margin-bottom: 2px;
 }
 .banner-right-bracket{
   background-image: url(../img/icons/red-right-arrow.png);
   margin-left: -10px;
-  margin-bottom: -7px;
+  margin-bottom: 0px;
 }
 
 .quote-section .section-title{
@@ -2701,4 +2701,43 @@ section.quote-section{
   left: 0;
   opacity: .02;
 }
+
+
 /* opportunities page end */
+
+/* Carousel typing effect */
+.banner-right-bracket{
+  margin-bottom: 2px;
+}
+.carousel-inner .carousel-caption h5:last-child{
+  margin-bottom: 0px;
+}
+
+.carousel-inner .active .typewritter{
+  white-space: nowrap;
+  overflow: hidden;
+  display:inline-block;
+  animation: type 3.5s steps(60, end); 
+  margin-left: -14px;
+}
+.carousel-inner .typewritter1{
+  display: none;
+}
+
+.carousel-inner .active .dot{
+  display: inline-block;
+  font-size: 40px;
+  line-height: 0.5em;
+  animation: hideme 1s steps(20, end);
+  animation-fill-mode: forwards;
+}
+
+@keyframes hideme{ 
+  100%{ width:14px; opacity:0;}
+} 
+
+@keyframes type{ 
+  from { width: 10px; } 
+} 
+
+/* End Carousel typing effect */
