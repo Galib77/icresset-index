@@ -1,4 +1,7 @@
-#more {display: none;}
+#more {
+    display: none;
+    width: 100% !important;
+}
 
 .pillars h5 {
     font-weight: 400;
@@ -48,5 +51,9 @@
    font-weight: 400;
 }
 
+
+.acquisition-details-info h3 {
+    font-weight: 400 !important;
+}
 
 
