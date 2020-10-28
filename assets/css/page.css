@@ -1,3 +1,22 @@
+/* theming  start */
+.acquisition-details .section-title h4::before{
+    background: var(--brand-black-color);
+    height: 3px;
+    width: 40px;
+  }
+  .acquisition-details {
+    background: #f5f5f5d9;
+  }
+  
+  .acquisition-details-info h3{
+    color: var(--brand-black-color);
+    font-weight: 400;
+  }
+
+/* theming  end */
+
+/* acquisition page start */
+
 #more {
     display: none;
     width: 100% !important;
@@ -20,6 +39,7 @@
 .ten-steps h1{
     font-size: 35px;
     font-weight: 500;
+    text-transform: lowercase;
 }
 
 .ten-steps-headeing{
@@ -55,5 +75,19 @@
 .acquisition-details-info h3 {
     font-weight: 400 !important;
 }
+
+
+.last {
+    background: #ffffff;
+    margin-bottom: 0px !important;
+    padding: 0px 0px !important;
+}
+
+.last .acquisition-details-info{
+    padding: 20px;
+}
+
+/* acquisition page end */
+
 
 

@@ -2741,16 +2741,3 @@ section.quote-section{
 } 
 
 /* End Carousel typing effect */
-.acquisition-details .section-title h4::before{
-  background: var(--brand-black-color);
-  height: 3px;
-  width: 40px;
-}
-.acquisition-details {
-  background: #f5f5f5d9;
-}
-
-.acquisition-details-info h3{
-  color: var(--brand-black-color);
-  font-weight: 400;
-}
