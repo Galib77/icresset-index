@@ -2752,4 +2752,5 @@ section.quote-section{
 
 .acquisition-details-info h3{
   color: var(--brand-black-color);
+  font-weight: 400;
 }
