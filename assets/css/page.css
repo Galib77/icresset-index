@@ -1,5 +1,9 @@
 /* theming  start */
 /* Amitesh start */
+.inner-page-content p {
+  color: #313131;
+}
+
 .inner-page-content .page-title {
   background-position: center center;
   background-size: cover;
@@ -13,7 +17,7 @@
 
 .inner-page-content .page-title::before {
   position: absolute;
-  content: '';
+  content: "";
   background: #000000d1;
   width: 100%;
   height: 100%;
@@ -29,27 +33,29 @@
 
 .inner-page-content .page-details::before {
   position: absolute;
-  content: '';
+  content: "";
   background-image: url(../img/shape/job.png);
-  background-position: center center;
-  background-size: cover;
+  /* background-position: center center; */
+  /* background-size: cover; */
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
-  opacity: .02;
+  opacity: 0.02;
+  background-repeat: repeat;
 }
 
 .inner-page-content .page-details .section-title h4 {
-  text-align: left !important;
+  text-align: left;
   color: #ed1a3b;
+  margin-bottom: 30px;
 }
 
 .inner-page-content .page-details .section-title h4::before {
   position: absolute;
-  content: '';
+  content: "";
   left: 5;
-  top: 80px;
+  top: 85px;
   background: var(--brand-black-color);
   height: 3px;
   width: 40px;
@@ -96,18 +102,35 @@
   font-size: 15px;
 }
 
+.inner-page-content .more-content-btn:hover {
+  color: var(--brand-black-color);
+}
+
+.inner-page-content .more-content-btn:hover img {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
 .inner-page-content .more-content-btn img {
   height: 18px;
   margin-top: -1px;
 }
 
-.inner-page-content .pillars h5 {
+.inner-page-content .more-content {
+  margin-top: 30px;
+}
+
+.inner-page-content .pillars h2 {
   font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .inner-page-content .pillars .three-pillars {
-  background-color: #e9ecef82;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  margin-bottom: 30px;
   padding: 10px 10px;
+  min-height: 210px;
 }
 
 .inner-page-content .pillars .three-pillars p {
@@ -118,12 +141,89 @@
 .inner-page-content .pillars .three-pillars h6 {
   font-weight: 400;
   font-size: 16px;
-  color: #000000 !important;
   text-align: center;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding: 12px 2px 8px 2px;
+  background-color: var(--brand-red-color);
+}
+
+.inner-page-content h4,
+.inner-page-content h6 {
+  color: #ffffff;
+}
+
+.inner-page-content .ten-steps {
+  margin-top: 40px;
+}
+
+.inner-page-content .ten-steps h2 {
+  font-weight: 400;
+  text-transform: uppercase !important;
+}
+
+.inner-page-content .ten-steps .ten-steps-heading {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 30px;
+  border-bottom: 1px solid #d8d8d8;
+  margin-bottom: 20px;
+}
+
+.inner-page-content .ten-steps .steps {
+  background-color: #e4203a;
+  padding: 20px 0px;
+  border-top-right-radius: 85px;
+  border-bottom-right-radius: 85px;
+  text-align: center;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.inner-page-content .ten-steps .step-text,
+.inner-page-content .ten-steps .step-count {
+  color: #ffffff;
+  font-size: 27px;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.inner-page-content .ten-steps .step-text {
+  margin-right: 10px;
+}
+
+.inner-page-content .ten-steps .step-count {
+  color: #fff;
+}
+
+.inner-page-content .ten-steps > .row {
+  margin-bottom: 10px;
+}
+
+.inner-page-content .ten-steps .process-details {
+  background-color: #ececec;
+  padding: 15px;
+  border-radius: 5px;
+  margin-left: 40px;
+  -webkit-box-shadow: 1px 1px 3px 1px #d2d2d2;
+          box-shadow: 1px 1px 3px 1px #d2d2d2;
+}
+
+.inner-page-content .ten-steps .process-details h3 {
+  font-weight: 400;
+}
+
+.inner-page-content .ten-steps .col-md-9 {
+  padding-right: 0px;
 }
 
 .acquisition-page .page-title {
   background-image: url(../img/page-banners/acquisition.jpg);
+}
+
+.acquisition-page .strategic h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .assessment-page .page-title {
@@ -133,54 +233,8 @@
 
 /* Amitesh end */
 /* Need to refine below ...*/
-/* .acquisition-details .section-title h4::before{
-    background: var(--brand-black-color);
-    height: 3px;
-    width: 40px;
-  }
-  .acquisition-details {
-    background: #f5f5f5d9;
-  } */
 /* theming  end */
 /* acquisition page start */
-/* #more {
-    display: none;
-    width: 100% !important;
-} */
-.ten-steps h1 {
-  font-size: 35px;
-  font-weight: 500;
-  text-transform: lowercase;
-}
-
-.ten-steps-headeing {
-  font-size: 25px;
-  font-weight: 500;
-  margin-top: 30px;
-}
-
-.steps {
-  background-color: #e4203a;
-  padding: 20px 5px;
-  border-top-right-radius: 85px;
-  border-bottom-right-radius: 85px;
-  text-align: center;
-}
-
-.steps, h4, h6 {
-  color: #ffffff;
-}
-
-.process-details {
-  background-color: #f4f5f7;
-  padding: 5px;
-  border-radius: 15px;
-}
-
-.process-details h3 {
-  font-weight: 400;
-}
-
 .acquisition-details-info h3 {
   font-weight: 400 !important;
 }
@@ -196,4 +250,3 @@
 }
 
 /* acquisition page end */
-/*# sourceMappingURL=page.css.map */
