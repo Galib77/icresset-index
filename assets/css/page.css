@@ -107,13 +107,19 @@
 
 .inner-page-content .pillars .three-pillars {
   background-color: #e9ecef82;
-  padding: 10px;
+  padding: 10px 10px;
+}
+
+.inner-page-content .pillars .three-pillars p {
+  font-size: 15px;
+  padding: 2px 10px;
 }
 
 .inner-page-content .pillars .three-pillars h6 {
   font-weight: 400;
   font-size: 16px;
   color: #000000 !important;
+  text-align: center;
 }
 
 .acquisition-page .page-title {
@@ -190,3 +196,4 @@
 }
 
 /* acquisition page end */
+/*# sourceMappingURL=page.css.map */
