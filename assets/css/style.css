@@ -322,7 +322,7 @@ h3 {
 /* Navbar CSS End */
 
 /* Page Title CSS Start */
-.our-approach-section, .service-section, .domain-expertise, .testimonial, h2 {
+/* .our-approach-section, .service-section, .domain-expertise, .testimonial, h2 {
   color: #e41d37 !important;
 }
 .page-title {
@@ -446,7 +446,7 @@ h3 {
 .page-title .lines :nth-child(3)::after {
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
-}
+} */
 
 /* Page Title CSS End */
 
@@ -2381,7 +2381,7 @@ section.quote-section{
 
 
 /*------ acquisition page end ---*/
-.acquisition-details {
+/* .acquisition-details {
   background: #fdf8f7;
   position: relative;
 }
@@ -2410,7 +2410,7 @@ section.quote-section{
   top: 0;
   left: 0;
   opacity: .02;
-}
+} */
 
 .acquisition-details-card {
   background: #ffffff;
