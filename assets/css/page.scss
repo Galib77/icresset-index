@@ -218,10 +218,93 @@
   }
 }
 
+
+
+
+//assesment page
 .assessment-page {
   .page-title {
     color: yellow;
     background-image: url(../img/page-banners/assessment.jpg);
+  }
+}
+
+.reference-check-tl-container {
+  font-family: 'Kumbh Sans', sans-serif !important;
+  width: 100%;
+  margin: auto;
+  display: block;
+  position: relative;
+
+  ul.tl {
+    margin: 20px 0;
+    padding: 0;
+    display: inline-block;
+
+    li {
+      list-style: none;
+      margin: auto;
+      margin-left: 100px;
+      min-height: 50px;
+
+      /*background: rgba(255,255,0,0.1);*/
+      border-left: 1px dashed #e52942;
+      padding: 0 0 50px 30px;
+      position: relative;
+
+      &:last-child {
+        border-left: 0;
+      }
+
+      &::before {
+        position: absolute;
+        left: -18px;
+        top: -5px;
+        content: " ";
+        border: 8px solid rgba(255, 255, 255, 0.74);
+        border-radius: 500%;
+        background: #e52942;
+        height: 20px;
+        width: 20px;
+        transition: all 500ms ease-in-out;
+      }
+
+      &:hover::before {
+        border-color: #e52942;
+        transition: all 1000ms ease-in-out;
+      }
+    }
+  }
+}
+
+ul.tl li {
+
+  .item-title {
+    color: #000000;
+  }
+  
+  .item-detail {
+    color: #000000;
+    font-size: 12px;
+  }
+
+  .timestamp {
+    color: #e52942;
+    position: absolute;
+    width: 100px;
+    left: -20%;
+    text-align: right;
+    font-size: 12px;
+  }
+}
+
+
+
+//research page
+.research-page {
+  .page-title {
+    color: yellow;
+    background-image: url(../img/page-banners/research.jpg);
   }
 }
 

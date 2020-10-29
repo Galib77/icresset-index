@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="zxx">
     
-    <head>
+	<head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="assets/css/meanmenu.css">
         <!-- Style CSS -->
         <link rel="stylesheet" href="assets/css/style.css">
-        <!-- Responsive CSS -->
+		<!-- Responsive CSS -->
         <link rel="stylesheet" href="assets/css/responsive.css">
         <!-- Title CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
@@ -23,71 +23,14 @@
         <!-- Favicon -->
         <link rel="icon" type="image/png" href="assets/img/iCresset-fevicon.png">  
 
-           <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script>
-    function AddReadMore() {
-        //This limit you can set after how much characters you want to show Read More.
-        var carLmt = 200;
-        // Text to show when text is collapsed
-        var readMoreTxt = " ... Read More";
-        // Text to show when text is expanded
-        var readLessTxt = " Read Less";
+        <link rel="stylesheet" href="assets/css/page.css">
 
+	</head>
 
-        //Traverse all selectors with this class and manupulate HTML part to show Read More
-        $(".addReadMore").each(function() {
-            if ($(this).find(".firstSec").length)
-                return;
-
-            var allstr = $(this).text();
-            if (allstr.length > carLmt) {
-                var firstSet = allstr.substring(0, carLmt);
-                var secdHalf = allstr.substring(carLmt, allstr.length);
-                var strtoadd = firstSet + "<span class='SecSec'>" + secdHalf + "</span><span class='readMore'  title='Click to Show More'>" + readMoreTxt + "</span><span class='readLess' title='Click to Show Less'>" + readLessTxt + "</span>";
-                $(this).html(strtoadd);
-            }
-
-        });
-        //Read More and Read Less Click Event binding
-        $(document).on("click", ".readMore,.readLess", function() {
-            $(this).closest(".addReadMore").toggleClass("showlesscontent showmorecontent");
-        });
-    }
-    $(function() {
-        //Calling function after Page Load
-        AddReadMore();
-    });
-    </script>
-    <style>
-    .addReadMore.showlesscontent .SecSec,
-    .addReadMore.showlesscontent .readLess {
-        display: none;
-    }
-
-    .addReadMore.showmorecontent .readMore {
-        display: none;
-    }
-
-    .addReadMore .readMore,
-    .addReadMore .readLess {
-        font-weight: bold;
-        margin-left: 2px;
-        color: blue;
-        cursor: pointer;
-    }
-
-    .addReadMoreWrapTxt.showmorecontent .SecSec,
-    .addReadMoreWrapTxt.showmorecontent .readLess {
-        display: block;
-    }
-    </style>
- 
-    </head>
-
-    <body>
-        <!-- text -->   
-        <!-- top header start -->
-    <section class="top-navigation-bar">
+	<body>
+		<!-- text -->	
+		<!-- top header start -->
+	<section class="top-navigation-bar">
       <div class="container">
        <div class="row">
             <div class="col-md-6"></div>
@@ -103,8 +46,8 @@
         </div>      
         </div>      
     </section>
-        <!-- top header end -->
-            <!-- Navbar Area Start -->
+		<!-- top header end -->
+			<!-- Navbar Area Start -->
          <div class="navbar-area">
             <!-- Menu For Mobile Device -->
             <div class="mobile-nav">
@@ -129,20 +72,20 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="acquisition.html" class="nav-link">Board 
+                                            <a href="acquisition.html#board" class="nav-link">Board 
                                                 <span class="left-bracket">Re</span>
                                                 <span class="right-bracket">&nbsp;</span>Search
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="acquisition.html" class="nav-link">
+                                            <a href="acquisition.html#executive" class="nav-link">
                                                 Executive
                                                 <span class="left-bracket">Re</span>
                                                 <span class="right-bracket">&nbsp;</span>Search
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="acquisition.html" class="nav-link">Strategic Acquisition Mandates (Startups)</a>
+                                            <a href="acquisition.html#strategic" class="nav-link">Strategic Acquisition Mandates (Startups)</a>
                                         </li>
                                     </ul>
                                 </li> 
@@ -277,86 +220,223 @@
             </div>   
         </div>
         <!-- Navbar Area End -->
-
-                <!-- Page Title Start -->
-        <section class="page-title title-bg"></section>
-        <!-- Page Title End -->
-
-        <section class="assessment-details pt-50 pb-50">
-            <div class="container">
-            <div class="section-title">
-                    <h4>ASSESSMENT</h4>
-                    <p>In today’s “candidate-driven” market, how you look for talent and the nature of recruitment processes has changed. Candidates look for crisp and engaging hiring experiences and appreciate transparency. iCresset’s Assessment solutions equip your organization with a future roadmap for growth. Beyond just acquiring and managing the best talent, it creates a talent pool that continuously up-scales to your organization’s growth strategies.</p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="assessment-details-card">
-                            <div class="row align-items-center">
-                                <div class="col-md-12">
-                                    <div class="assessment-details-info">
-                                        <h3>
-                                          Job Fit Assessments 
-                                        </h3>
-                                       <p>
-                                        These world class Assessment Solutions come with a suite of intuitive, analytical and outcome-oriented reports which predict the best fit individuals who are aligned with your organization’s culture and simultaneously meet the key hiring & Succession planning objectives.
-                                       </p>
-                                         <h3>Job Fit Assessments</h3>
-    <p class="addReadMore showlesscontent">These world class Assessment Solutions come with a suite of intuitive, analytical and outcome-oriented reports which predict the best fit individuals who are aligned with your organization’s culture and simultaneously meet the key hiring & Succession planning objectives.</p>
-
-     <h3>Show More Content</h3>
-    <p class="addReadMore showlesscontent">Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird, wenn er sich ein Layout ansieht. Der Punkt, Lorem Ipsum zu nutzen, ist, dass es mehr oder weniger die normale Anordnung von Buchstaben darstellt und somit nach lesbarer Sprache aussieht. Viele Desktop Publisher und Webeditoren nutzen mittlerweile Lorem Ipsum als den Standardtext, auch die Suche im Internet nach "lorem ipsum" macht viele Webseiten sichtbar, wo diese noch immer vorkommen. Mittlerweile gibt es mehrere Versionen des Lorem Ipsum, einige zufällig, andere bewusst (beeinflusst von Witz und des eigenen Geschmacks)Es ist ein lang erwiesener Fakt</p>
-
-     <h3>Show More Content</h3>
-    <p class="addReadMore showlesscontent">Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird, wenn er sich ein Layout ansieht. Der Punkt, Lorem Ipsum zu nutzen, ist, dass es mehr oder weniger die normale Anordnung von Buchstaben darstellt und somit nach lesbarer Sprache aussieht. Viele Desktop Publisher und Webeditoren nutzen mittlerweile Lorem Ipsum als den Standardtext, auch die Suche im Internet nach "lorem ipsum" macht viele Webseiten sichtbar, wo diese noch immer vorkommen. Mittlerweile gibt es mehrere Versionen des Lorem Ipsum, einige zufällig, andere bewusst (beeinflusst von Witz und des eigenen Geschmacks)Es ist ein lang erwiesener Fakt</p>
-                                    </div>
+        <div class="inner-page-content assesment-page">
+            <!-- Page Title Start -->
+            <section class="page-title"></section>
+            <!-- Page Title End -->
+            <section class="page-details pt-50 pb-50">
+                <div class="container">
+                    <div class="section-title">
+                        <h4>ASSESMENT</h4>
+                        <p><a id="board"></a>
+                            In today’s “candidate-driven” market, how you look for talent and the nature of recruitment 
+                            processes has changed. Candidates look for crisp and engaging hiring experiences and 
+                            appreciate transparency. iCresset’s Assessment solutions equip your organization with a 
+                            future roadmap for growth. Beyond just acquiring and managing the best talent, it creates 
+                            a talent pool that continuously up-scales to your organization’s growth strategies.
+                        </p>
+                       
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="details-card">
+                                <h3>
+                                    Job Fit Assessments
+                                </h3>
+                                <p>
+                                    These world class Assessment Solutions come with a suite of intuitive, analytical 
+                                    and outcome-oriented reports which predict the best fit individuals who are aligned 
+                                    with your organization’s culture and simultaneously meet the key hiring & Succession 
+                                    planning objectives.
+                                </p>
+                                <a href="#" class="more-content-btn" data-toggle="collapse" data-target="#collapsejobfit">
+                                    Read More  <img src="assets/img/icons/learnmore.png">
+                                </a>
+        
+                                <div class="more-content collapse" id="collapsejobfit">
+                                    <p>We apply globally approved Assessment Solution that helps you meet your key 
+                                    hiring and succession planning objective. </p>
                                 </div>
-                               
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="row prevue">
+                        <div class="col-lg-12">
+                            <div class="details-card pt-2">
+                                <h3>Prevue “TOTAL PERSON” Assessment</h3>
+                                <p>Prevue is an automated online 15 minute to a 1 hour test. Based on the globally 
+                                    accepted “Big Five Personality Model”, this revolutionary 5th Generation ‘total 
+                                    Person’ Assessment tool generates 9 comprehensive reports, catering to every 
+                                    stage of Talent Management’s Life Cycle. 
+                                </p>
+                                <p>
+                                    It is reputed to reduce attrition, improvesproductivity and supports high-volume 
+                                    usage across the Talent Management life cycle.
+                                </p>
+
+                                <a href="#" class="more-content-btn" data-toggle="collapse" data-target="#collapseprevue">
+                                    Read More  <img src="assets/img/icons/learnmore.png">
+                                </a>
+        
+                                <div class="more-content collapse" id="collapseprevue">
+                                    <h6 class="text-dark">ICresset uses PREVUE a proven Hiring and Development tool 
+                                        reputed for:
+                                    </h6>
+                                    <ul>
+                                        <dl>
+                                            <dt>Job Benchmarking Capabilities</dt>
+                                            <dt>‘Total Person’ Assessment – including Aptitude, Interests and Behavior
+                                                These Attributes:
+                                                </dt>
+                                            <dd>- Reduce Attrition</dd>
+                                            <dd>- Improve Productivity</dd>
+                                            <dd>- Enable High-Volume Usage across the Talent Management Life Cycle</dd>
+                                          </dl>
+                                    </ul>
+                                    <div class="row pillars">
+                                        <div class="col-lg-4 col-sm-4">
+                                            <div class="three-pillars">
+                                                <h6>MEASURES</h6>
+                                               <ul>
+                                                   <li>4 General Mental Abilities</li>
+                                                   <li>3 Motivations & Interests</li>
+                                                   <li>13 Dichotomous Personality Traits</li>
+                                               </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-4">
+                                            <div class="three-pillars ">
+                                                <h6>COMPARES</h6>
+                                                <p>
+                                                    Candidates Fitment with ideal Bechmark for the Job =-09+*dfghjk,cxz.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-4">
+                                            <div class="three-pillars">
+                                                <h6>PREDICTS</h6>
+                                                <p>
+                                                    “Job Fit”- Reflects candidate’s success quotient in the job. 
+                                                    To be used for selection/succession planning/career counselling.
+                                                </p>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-12">
-                        <div class="assessment-details-card">
-                            <div class="row align-items-center">
-                                <div class="col-md-12">
-                                    <div class="assessment-details-info">
-                                        <h3>
-                                           Executive 
-                                           <span class="board-left-bracket"></span>
-                                                Re
-                                            <span class="board-right-bracket"></span>    
-                                            Search 
-                                        </h3>
-                                       <p>
-                                        True leaders are rare – capability to spot and discern them from usual loud mouths is rarer! Armed with outstanding Domain expertise in targeted sectors, inherent wisdom to assess the leadership potential and armed with diligently mapped network & processes to head hunt the Best Fit talent for you, we have all the right ingredients to help you experience a new high in Leadership Hiring.
-                                        </p>
-                                       k="myFunction()" id="myBtn"> Read more</a>
-                                       
-                                    </div>
+                    <div class="row saville">
+                        <div class="col-lg-12">
+                            <div class="details-card pt-2">
+                                <h3>Saville Consulting Assessment</h3>
+                                <p>
+                                    This comprehensive tool is a proven accurate measure of Personality and Competence, 
+                                      gives you dual insights in Talent & Motive and helps in understanding performance 
+                                      enhancers and Inhibitors, It also evaluates the cultural and environment fit of the 
+                                      ndividual. We use Saville Assessments for an objective and informative selection 
+                                      process, supported by behavioural event interviews.
+                                </p>
+                                <a href="#" class="more-content-btn" data-toggle="collapse" data-target="#collapsesaville">
+                                    Read More  <img src="assets/img/icons/learnmore.png">
+                                </a>
+        
+                                <div class="more-content collapse" id="collapsesaville">
+                                    <h6 class="text-dark">SAVILLE CONSULTING ASSESSMENT </h6>
+                                    <p>Developed by Prof Saville of SHL fame, The Expert Report suite from Saville 
+                                        Consulting Assessment is best suited to meet the Leadership Assessment and
+                                        Development needs. This comprehensive Assessment delivers the following 
+                                        outcomes:
+                                    </p>
+                                    <ul>
+                                        <li>Strong and accurate measure of Personality & Competence potential</li>
+                                        <li>Dual insights into Talent (what one is good at) and Motive (what one enjoys doing)</li>
+                                        <li>Helps in understanding Performance Enhancers and Inhibitors</li>
+                                        <li>Provides insights into the Culture & Environment fit of the individual</li>
+                                        <li>Option of generating multiple reports from the same instrument</li>
+                                        <li>Assessments captured on the globally accepted Saville Wave R performance culture framework</li>
+                                        <li>Reputed for delivering a positive candidate experience</li>
+                                    </ul>
+                                    <p>iCresset team is accredited for the use of Saville Assessments towards enabling
+                                        an Objective and Informed Selection Process, aided by Behavioral Event Interview
+                                    </p>
+
+                                    <h5>360 Degree Assessment: </h5>
+                                    <p>These assessments are geared to collect feedback on displayed critical to 
+                                        job competencies , as perceived by co workers, senior and junior team members. 
+                                        This assessment can be used for self development as well as for generating 
+                                        objective references on the candidate’s performance in present and past 
+                                        organizations.                                                                                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-12">
-                        <div class="assessment-details-card">
-                            <div class="row align-items-center">
-                                <div class="col-md-12">
-                                    <div class="assessment-details-info">
-                                        <h3>
-                                           Strategic assessment Mandates | Startups   
-                                        </h3>
-                                       <p>
-                                        We are with you to put in place the full lifecycle recruitment process. Use our in-depth domain expertise to your advantage for insights on current sectoral talent trends, measuring performance through yardstick of our proprietary tools and creating a positive hiring experience for all candidates.
-                                       </p>
-                                    </div>
+                    <div class="row skill">
+                        <div class="col-lg-12">
+                            <div class="details-card pt-2">
+                                <h3>Skill Survey</h3>
+                                <p>
+                                    Skill Survey is an automated 360 Feedback Tool for information-rich and development
+                                    orientedReferenceCheck Process. Instead of relying on word of mouth/over the phone
+                                    reference check practices currently prevailing in the market, Skill Survey enables
+                                    and objective take on candidate’s past performance.  
+                                </p>
+                                <a href="#" class="more-content-btn" data-toggle="collapse" data-target="#collapseskill">
+                                    Read More  <img src="assets/img/icons/learnmore.png">
+                                </a>
+        
+                                <div class="more-content collapse" id="collapseskill">
+                                    <h6 class="text-dark">Pre-Hire 3600  Reference Check</h6>
+
+                                    <div class="reference-check-tl-container">
+                                        <ul class="tl">
+                                          <li class="tl-item">
+                                            <div class="timestamp">
+                                                STEP 1 
+                                            </div>
+                                            <div class="item-title">Recruiter</div>
+                                            <div class="item-detail">The recruiter enters candidate information and the 
+                                                choose job-specific survey.</div>
+                                          </li>
+                                          <li class="tl-item">
+                                            <div class="timestamp">
+                                                STEP 2 
+                                            </div>
+                                            <div class="item-title">Candidate</div>
+                                            <div class="item-detail">The candidate enters the relevant reference 
+                                                information.</div>
+                                          </li>
+                                          <li class="tl-item">
+                                            <div class="timestamp">
+                                                STEP 3 
+                                            </div>
+                                            <div class="item-title">Reference</div>
+                                            <div class="item-detail">The reference completes candidate assessment, adds 
+                                                personal comments on the candidates strengths and indicates areas of 
+                                                improvement</div>
+                                          </li>
+                                          <li class="tl-item">
+                                            <div class="timestamp">
+                                                STEP 4 
+                                            </div>
+                                            <div class="item-title">Generation of Report</div>
+                                            <div class="item-detail">The report can be downloaded after a minimum number
+                                                of references have responded</div>
+                                          </li>
+                                      
+                                        </ul>
+                                      </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
+		
 
         <!-- Footer Section Start -->
         <footer class="footer-area pt-50 pb-50">
@@ -508,19 +588,18 @@
         <!-- Footer Section End -->
 
 
-        <!-- Back To Top Start -->
-        <div class="top-btn">
-            <i class='bx bx-chevrons-up bx-fade-up'></i>
-        </div>
-        <!-- Back To Top End -->
-            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="assets/js/jquery-3.5.0.min.js"></script>
-        <script src="assets/js/popper.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <!-- Meanmenu JS -->
-        <script src="assets/js/meanmenu.js"></script>
-        <!-- Custom JS -->
-        <script src="assets/js/custom.js"></script>
-
+		<!-- Back To Top Start -->
+		<div class="top-btn">
+			<i class='bx bx-chevrons-up bx-fade-up'></i>
+		</div>
+		<!-- Back To Top End -->
+			<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="assets/js/jquery-3.5.0.min.js"></script>
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<!-- Meanmenu JS -->
+		<script src="assets/js/meanmenu.js"></script>
+		<!-- Custom JS -->
+		<script src="assets/js/custom.js"></script>
 </body>
-</html> 
+</html>	
