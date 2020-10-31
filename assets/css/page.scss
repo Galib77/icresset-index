@@ -94,6 +94,11 @@
   }
 
   .more-content-btn {
+    &[aria-expanded="false"] > .expanded,
+    &[aria-expanded="true"] > .collapsed {
+      display: none;
+    }
+
     color: var(--brand-red-color);
     font-size: 15px;
     &:hover {
@@ -106,7 +111,7 @@
 
     img {
       height: 18px;
-      margin-top: -1px;
+      margin-top: -4px;
     }
   }
 

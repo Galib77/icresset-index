@@ -102,6 +102,11 @@
   font-size: 15px;
 }
 
+.inner-page-content .more-content-btn[aria-expanded="false"] > .expanded,
+.inner-page-content .more-content-btn[aria-expanded="true"] > .collapsed {
+  display: none;
+}
+
 .inner-page-content .more-content-btn:hover {
   color: var(--brand-black-color);
 }
@@ -113,7 +118,7 @@
 
 .inner-page-content .more-content-btn img {
   height: 18px;
-  margin-top: -1px;
+  margin-top: -4px;
 }
 
 .inner-page-content .more-content {
@@ -580,4 +585,3 @@ ul.tl li .timestamp {
 
 /* Amitesh end */
 /* theming  end */
-/*# sourceMappingURL=page.css.map */

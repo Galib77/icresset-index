@@ -818,7 +818,7 @@ h3 {
 }
 .service-card .service-text .service-btn img {
   height: 18px;
-  margin-top: -1px;
+  margin-top: -4px;
 }
 .service-card .service-text .service-btn:hover img {
   filter: grayscale(1);
@@ -2139,7 +2139,7 @@ section.quote-section{
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu{
-  width: 350px;
+  width: 290px;
 }
 
 .domain-expertise-text .media .media-body ul{
@@ -2634,6 +2634,9 @@ section.quote-section{
 /* opportunities page end */
 
 /* Carousel typing effect */
+.carousel-item{
+  min-height: 481px;
+}
 .banner-right-bracket{
   margin-bottom: 2px;
 }
