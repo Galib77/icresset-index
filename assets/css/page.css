@@ -321,7 +321,7 @@ ul.tl li .timestamp {
 }
 
 .domain-page .flex-grid-item {
-  height: 80px;
+  height: 120px;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -403,6 +403,179 @@ ul.tl li .timestamp {
 .opportunities-page .page-title {
   color: yellow;
   background-image: url(../img/page-banners/opportunities.jpg);
+}
+
+.about-page .page-title {
+  color: yellow;
+  background-image: url(../img/page-banners/about.jpg);
+}
+
+.about-page .team-profile {
+  text-align: center;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.about-page .team-profile img {
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+.about-page .team-profile h3 {
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+.about-page .team-profile span {
+  font-size: 14px;
+}
+
+.about-page .team-profile p {
+  font-size: 16px;
+}
+
+.about-page .team-profile ul {
+  padding-left: 0;
+  margin-bottom: 25px;
+}
+
+.about-page .team-profile ul li {
+  list-style: none;
+}
+
+.about-page .team-profile ul li a {
+  color: #707070;
+  font-size: 17px;
+}
+
+.about-page .team-profile ul li a i {
+  margin-right: 10px;
+}
+
+.about-page .team-profile .team-social a {
+  color: #707070;
+}
+
+.about-page .team-profile .team-social a i {
+  border: 1px solid;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 3px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.about-page .team-profile .team-social a i:hover {
+  background: #001935;
+  color: #ffffff;
+}
+
+.about-page .team-info-text {
+  margin-bottom: 25px;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.about-page .team-info-text h3 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.about-page .team-info-text p {
+  margin-bottom: 0;
+}
+
+.about-page .team-info-text.team-education .education-info {
+  margin-bottom: 20px;
+}
+
+.about-page .team-info-text.team-education .education-info h4 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.about-page .team-info-text.team-education .education-info p {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.about-page .team-info-text.team-education .education-info span {
+  font-size: 16px;
+}
+
+.about-page .team-info-text.team-experience ul {
+  padding-left: 20px;
+}
+
+.about-page .team-info-text.team-experience ul li {
+  list-style: circle;
+}
+
+.about-page .team-info-text.team-skill ul {
+  padding-left: 0;
+}
+
+.about-page .team-info-text.team-skill ul li {
+  list-style: none;
+  display: inline-block;
+  border: 1px solid #ddd;
+  padding: 5px 15px;
+  line-height: 1;
+  margin-right: 8px;
+  margin-bottom: 10px;
+}
+
+.about-page .team-info-text .theme-btn .default-btn {
+  margin: 0 5px;
+}
+
+.contact-page .page-title {
+  color: yellow;
+  background-image: url(../img/page-banners/contact.jpg);
+}
+
+.contact-page .contact-card {
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  text-align: center;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+}
+
+.contact-page .contact-card i {
+  color: #001935;
+  border: 1px dashed #001935;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.contact-page .contact-card ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.contact-page .contact-card ul li {
+  list-style: none;
+  color: #001935;
+}
+
+.contact-page .contact-card ul li a {
+  color: #001935;
+}
+
+.contact-page .contact-card ul li a:hover {
+  color: #ed1a3b;
 }
 
 /* Amitesh end */

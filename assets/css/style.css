@@ -579,7 +579,7 @@ h3 {
 /* Counter CSS End */
 
 /*----------  Contact Page CSS Start ----------*/
-.page-title.title-bg23 {
+/* .page-title.title-bg23 {
   background-image: url(../img/title-bg/23.jpg);
 }
 
@@ -619,9 +619,9 @@ h3 {
 
 .contact-card ul li a:hover {
   color: #ed1a3b;
-}
+} */
 
-.contact-area {
+/* .contact-area {
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
   padding: 50px;
@@ -671,7 +671,7 @@ h3 {
   color: #dc3545 !important;
   margin-top: 18px;
   font-size: 20px;
-}
+} */
 
 /*----------  Contact Page CSS End ----------*/
 
@@ -2259,7 +2259,7 @@ section.quote-section{
   background-image: url(../img/title-bg/8.jpg);
 }
 
-.team-profile {
+/* .team-profile {
   text-align: center;
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
@@ -2379,7 +2379,7 @@ section.quote-section{
 
 .team-info-text .theme-btn .default-btn {
   margin: 0 5px;
-}
+} */
 
 /*----------About us page end ----------*/
 /* assessment page start */
@@ -2424,7 +2424,6 @@ section.quote-section{
 .board-researchbracket-icon {
     background-image: url(../img/icons/red-right-arrow.png);
     width: 100%;
-    height: 
     margin-left: -10px;
     margin-bottom: -7px;
 }
