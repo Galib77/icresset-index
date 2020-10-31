@@ -303,9 +303,101 @@ ul.tl li .timestamp {
   background-image: url(../img/page-banners/research.jpg);
 }
 
+.domain-page {
+  /* colors by clrs.cc*/
+}
+
 .domain-page .page-title {
   color: yellow;
   background-image: url(../img/page-banners/domain.jpg);
+}
+
+.domain-page .flex-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.domain-page .flex-grid-item {
+  height: 80px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.domain-page .flex-grid-item:nth-child(1) {
+  background-color: #001f3f;
+  color: white;
+}
+
+.domain-page .flex-grid-item:nth-child(2) {
+  background-color: #0074D9;
+  color: white;
+}
+
+.domain-page .flex-grid-item:nth-child(3) {
+  background-color: #7FDBFF;
+  color: white;
+}
+
+.domain-page .flex-grid-item:nth-child(4) {
+  background-color: #39CCCC;
+  color: white;
+}
+
+.domain-page .flex-grid-item:nth-child(5) {
+  background-color: #3D9970;
+  color: white;
+}
+
+.domain-page .flex-grid-item:nth-child(6) {
+  background-color: #2ECC40;
+  color: white;
+}
+
+.domain-page .flex-grid-item:nth-child(7) {
+  background-color: #01FF70;
+  color: white;
+}
+
+.domain-page .flex-grid-item:nth-child(8) {
+  background-color: #FFDC00;
+  color: white;
+}
+
+.domain-page .flex-grid-item:nth-child(9) {
+  background-color: #FF851B;
+  color: white;
+}
+
+.domain-page .flex-grid-item:nth-child(10) {
+  background-color: #FF4136;
+  color: white;
+}
+
+.domain-page .flex-grid-item:nth-child(11) {
+  background-color: #85144b;
+  color: white;
+}
+
+.domain-page .flex-grid-item:nth-child(12) {
+  background-color: #F012BE;
+  color: white;
 }
 
 .opportunities-page .page-title {
