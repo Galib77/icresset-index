@@ -226,9 +226,9 @@
   margin-bottom: 20px;
 }
 
-.assessment-page .page-title {
+.assesment-page .page-title {
   color: yellow;
-  background-image: url(../img/page-banners/assessment.jpg);
+  background-image: url(../img/page-banners/assesment.jpg);
 }
 
 .reference-check-tl-container {
@@ -301,6 +301,16 @@ ul.tl li .timestamp {
 .research-page .page-title {
   color: yellow;
   background-image: url(../img/page-banners/research.jpg);
+}
+
+.domain-page .page-title {
+  color: yellow;
+  background-image: url(../img/page-banners/domain.jpg);
+}
+
+.opportunities-page .page-title {
+  color: yellow;
+  background-image: url(../img/page-banners/opportunities.jpg);
 }
 
 /* Amitesh end */
