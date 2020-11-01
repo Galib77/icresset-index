@@ -16,7 +16,13 @@ jQuery(function ($) {
         }
     });
 
-
+    $(document).ready(function(){
+        document.getElementById('copyright-year').appendChild(
+            document.createTextNode(
+                new Date().getFullYear()
+            )
+        );
+    });
 
     // Back To Top
     $(window).scroll(function () {
