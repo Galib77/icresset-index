@@ -326,7 +326,6 @@ ul.tl li .timestamp {
 }
 
 .domain-page .flex-grid-item {
-  height: 120px;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -375,36 +374,6 @@ ul.tl li .timestamp {
   color: white;
 }
 
-.domain-page .flex-grid-item:nth-child(7) {
-  background-color: #01FF70;
-  color: white;
-}
-
-.domain-page .flex-grid-item:nth-child(8) {
-  background-color: #FFDC00;
-  color: white;
-}
-
-.domain-page .flex-grid-item:nth-child(9) {
-  background-color: #FF851B;
-  color: white;
-}
-
-.domain-page .flex-grid-item:nth-child(10) {
-  background-color: #FF4136;
-  color: white;
-}
-
-.domain-page .flex-grid-item:nth-child(11) {
-  background-color: #85144b;
-  color: white;
-}
-
-.domain-page .flex-grid-item:nth-child(12) {
-  background-color: #F012BE;
-  color: white;
-}
-
 .opportunities-page .page-title {
   color: yellow;
   background-image: url(../img/page-banners/opportunities.jpg);
@@ -415,12 +384,62 @@ ul.tl li .timestamp {
   background-image: url(../img/page-banners/about.jpg);
 }
 
-.about-page .team-profile {
-  text-align: center;
+.about-page .team-profile,
+.about-page .team-info-text {
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  border-radius: 20px;
-  padding: 20px;
+  padding: 20px 30px;
+}
+
+.about-page .team-profile ul,
+.about-page .team-info-text ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.about-page .team-profile ul li,
+.about-page .team-info-text ul li {
+  list-style: none;
+  text-align: left;
+  padding-left: 10px;
+  color: #313131;
+}
+
+.about-page .team-profile ul li i,
+.about-page .team-info-text ul li i {
+  margin-left: -24px;
+  margin-right: 5px;
+}
+
+.about-page .team-profile ul li p,
+.about-page .team-info-text ul li p {
+  margin-bottom: 0;
+}
+
+.about-page .team-profile .professional-title,
+.about-page .team-info-text .professional-title {
+  font-weight: 400;
+  color: #404040;
+  text-transform: none !important;
+  text-align: center;
+}
+
+.about-page .team-profile .certificate-span,
+.about-page .team-info-text .certificate-span {
+  margin-left: -2px;
+}
+
+.about-page .box1 {
+  min-height: 367px;
+}
+
+.about-page .box2 {
+  min-height: 510px;
+}
+
+.about-page .team-profile {
+  text-align: center;
+  border-right: 2px solid var(--brand-red-color);
 }
 
 .about-page .team-profile img {
@@ -441,24 +460,6 @@ ul.tl li .timestamp {
   font-size: 16px;
 }
 
-.about-page .team-profile ul {
-  padding-left: 0;
-  margin-bottom: 25px;
-}
-
-.about-page .team-profile ul li {
-  list-style: none;
-}
-
-.about-page .team-profile ul li a {
-  color: #707070;
-  font-size: 17px;
-}
-
-.about-page .team-profile ul li a i {
-  margin-right: 10px;
-}
-
 .about-page .team-profile .team-social a {
   color: #707070;
 }
@@ -476,14 +477,6 @@ ul.tl li .timestamp {
 .about-page .team-profile .team-social a i:hover {
   background: #001935;
   color: #ffffff;
-}
-
-.about-page .team-info-text {
-  margin-bottom: 25px;
-  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  padding: 20px 30px;
-  border-radius: 10px;
 }
 
 .about-page .team-info-text h3 {
@@ -586,4 +579,3 @@ ul.tl li .timestamp {
 
 /* Amitesh end */
 /* theming  end */
-/*# sourceMappingURL=page.css.map */
