@@ -327,7 +327,6 @@ ul.tl li {
   }
   
   .flex-grid-item {
-    height: 120px;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 25%;
@@ -335,7 +334,7 @@ ul.tl li {
     align-items: center;
     justify-content: center;
   }
- 
+
   
   /* colors by clrs.cc*/
   .flex-grid-item:nth-child(1)  {background-color: #001f3f; color: white;}
@@ -344,12 +343,6 @@ ul.tl li {
   .flex-grid-item:nth-child(4)  {background-color: #39CCCC; color: white;}
   .flex-grid-item:nth-child(5)  {background-color: #3D9970; color: white;}
   .flex-grid-item:nth-child(6)  {background-color: #2ECC40; color: white;}
-  .flex-grid-item:nth-child(7)  {background-color: #01FF70; color: white;}
-  .flex-grid-item:nth-child(8)  {background-color: #FFDC00; color: white;}
-  .flex-grid-item:nth-child(9)  {background-color: #FF851B; color: white;}
-  .flex-grid-item:nth-child(10) {background-color: #FF4136; color: white;}
-  .flex-grid-item:nth-child(11) {background-color: #85144b; color: white;}
-  .flex-grid-item:nth-child(12) {background-color: #F012BE; color: white;}
 }
 
 //opportunities page
@@ -500,11 +493,12 @@ ul.tl li {
   .contact-card {
     -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
-    text-align: center;
+    text-align: left;
     padding: 25px;
     border-radius: 15px;
     margin-bottom: 30px;
-    background-color: #ffffff;
+    background-color: transparent;
+    min-height: 320px;
   
     i {
       color: #001935;

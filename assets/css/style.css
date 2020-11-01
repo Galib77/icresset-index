@@ -1649,7 +1649,7 @@ h3 {
 
 /* Footer CSS Start */
 .footer-area {
-  background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), url('../../assets/img/footer-background.png') no-repeat
+  background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), url('../../assets/img/footer-background-min.png') no-repeat
   center center /cover;
 }
 
