@@ -590,6 +590,7 @@ ul.tl li .timestamp {
 
 .contact-page .contact-card ul li a {
   color: #001935;
+  cursor: pointer;
 }
 
 .contact-page .contact-card ul li a:hover {
