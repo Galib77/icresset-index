@@ -518,20 +518,43 @@ ul.tl li {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
     text-align: left;
     padding: 25px;
-    border-radius: 15px;
+    // border-radius: 15px;
     margin-bottom: 30px;
     background-color: transparent;
-    min-height: 320px;
-  
+    min-height: 365px;
+    
+    h3{
+      font-weight: 400;
+      background-color: var(--brand-red-color);
+      padding: 6px;
+      margin-left: -24px;
+      margin-right: -24px;
+      color: #fff !important;
+      text-align: center;
+      padding-top: 10px;
+    }
+    .address, 
+    .telephone,
+    .email{
+      // font-size:14px;
+    }
+    .address{
+      margin-bottom: 25px;
+      min-height: 115px;
+      padding-bottom: 5px;
+    }
+    .telephone{
+    }
+    .email{
+      margin-top: 15px;
+    }
+
     i {
-      color: #001935;
-      border: 1px dashed #001935;
-      width: 45px;
-      height: 45px;
-      line-height: 45px;
-      border-radius: 50px;
-      margin-bottom: 20px;
-      font-size: 25px;
+      margin-left: -25px;
+      position: absolute;
+      left: 25px;
+      top: 4px;
+      color:#989898;
     }
   
     ul {
@@ -541,6 +564,8 @@ ul.tl li {
       li {
         list-style: none;
         color: #001935;
+        padding-left: 24px;
+        position: relative;
   
         a {
           color: #001935;

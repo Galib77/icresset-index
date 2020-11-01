@@ -542,21 +542,38 @@ ul.tl li .timestamp {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
   text-align: left;
   padding: 25px;
-  border-radius: 15px;
   margin-bottom: 30px;
   background-color: transparent;
-  min-height: 320px;
+  min-height: 365px;
+}
+
+.contact-page .contact-card h3 {
+  font-weight: 400;
+  background-color: var(--brand-red-color);
+  padding: 6px;
+  margin-left: -24px;
+  margin-right: -24px;
+  color: #fff !important;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.contact-page .contact-card .address {
+  margin-bottom: 25px;
+  min-height: 115px;
+  padding-bottom: 5px;
+}
+
+.contact-page .contact-card .email {
+  margin-top: 15px;
 }
 
 .contact-page .contact-card i {
-  color: #001935;
-  border: 1px dashed #001935;
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  border-radius: 50px;
-  margin-bottom: 20px;
-  font-size: 25px;
+  margin-left: -25px;
+  position: absolute;
+  left: 25px;
+  top: 4px;
+  color: #989898;
 }
 
 .contact-page .contact-card ul {
@@ -567,6 +584,8 @@ ul.tl li .timestamp {
 .contact-page .contact-card ul li {
   list-style: none;
   color: #001935;
+  padding-left: 24px;
+  position: relative;
 }
 
 .contact-page .contact-card ul li a {
