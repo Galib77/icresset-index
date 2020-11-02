@@ -327,22 +327,26 @@ ul.tl li {
   }
   
   .flex-grid-item {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 25%;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #f1f1f18f;
   }
 
   
   /* colors by clrs.cc*/
-  .flex-grid-item:nth-child(1)  {background-color: #001f3f; color: white;}
-  .flex-grid-item:nth-child(2)  {background-color: #0074D9; color: white;}
-  .flex-grid-item:nth-child(3)  {background-color: #7FDBFF; color: white;}
-  .flex-grid-item:nth-child(4)  {background-color: #39CCCC; color: white;}
-  .flex-grid-item:nth-child(5)  {background-color: #3D9970; color: white;}
-  .flex-grid-item:nth-child(6)  {background-color: #2ECC40; color: white;}
+  // .flex-grid-item:nth-child(1)  {background-color: #001f3f; color: white;}
+  // .flex-grid-item:nth-child(2)  {background-color: #0074D9; color: white;}
+  // .flex-grid-item:nth-child(3)  {background-color: #7FDBFF; color: white;}
+  // .flex-grid-item:nth-child(4)  {background-color: #39CCCC; color: white;}
+  // .flex-grid-item:nth-child(5)  {background-color: #3D9970; color: white;}
+  // .flex-grid-item:nth-child(6)  {background-color: #2ECC40; color: white;}
 }
 
 //opportunities page

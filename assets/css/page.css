@@ -326,6 +326,9 @@ ul.tl li .timestamp {
 }
 
 .domain-page .flex-grid-item {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -342,36 +345,7 @@ ul.tl li .timestamp {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.domain-page .flex-grid-item:nth-child(1) {
-  background-color: #001f3f;
-  color: white;
-}
-
-.domain-page .flex-grid-item:nth-child(2) {
-  background-color: #0074D9;
-  color: white;
-}
-
-.domain-page .flex-grid-item:nth-child(3) {
-  background-color: #7FDBFF;
-  color: white;
-}
-
-.domain-page .flex-grid-item:nth-child(4) {
-  background-color: #39CCCC;
-  color: white;
-}
-
-.domain-page .flex-grid-item:nth-child(5) {
-  background-color: #3D9970;
-  color: white;
-}
-
-.domain-page .flex-grid-item:nth-child(6) {
-  background-color: #2ECC40;
-  color: white;
+  background-color: #f1f1f18f;
 }
 
 .opportunities-page .page-title {
@@ -599,3 +573,4 @@ ul.tl li .timestamp {
 
 /* Amitesh end */
 /* theming  end */
+/*# sourceMappingURL=page.css.map */
