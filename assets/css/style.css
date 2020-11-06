@@ -2657,18 +2657,70 @@ section.quote-section{
 
 .carousel-inner .active .dot{
   display: inline-block;
-  font-size: 40px;
+  /* font-size: 40px; */
   line-height: 0.5em;
   animation: hideme 1s steps(20, end);
   animation-fill-mode: forwards;
 }
 
 @keyframes hideme{ 
-  100%{ width:14px; opacity:0;}
+  100%{ width:16px; opacity:0;}
 } 
 
 @keyframes type{ 
   from { width: 10px; } 
 } 
+
+/* Carousel caption  */
+.carousel-caption{
+  top: 37%;
+  height: 135px;
+  width: 80%;
+  left: 10%;
+  padding-left: 0;
+  background-color: transparent;
+}
+.carousel-caption:hover{
+  background-color: transparent;
+}
+
+.carousel-inner h2{
+  color: #ffffff !important;
+  font-size: 40px;
+}
+
+.carousel-inner h5, 
+.carousel-inner h5.caption-first{
+  color: #ffffff !important;
+}
+
+.first-slide {
+  padding-left: 458px;
+}
+.carousel-inner .carousel-caption h5:last-child{
+  font-size: 25px;
+}
+
+.carousel-caption .banner-left-bracket, 
+.carousel-caption .banner-right-bracket{
+  height: 34px;
+}
+.carousel-caption .banner-right-bracket {
+  /* margin-left: -15px; */
+}
+.carousel-caption .banner-left-bracket {
+  margin-right: -16px;
+}
+.carousel-inner .active .dot{
+  font-size: 45px;
+  width: 16px;
+}
+
+.carousel-inner .active .dot::after{
+  content: "•";
+  position: absolute;
+  top: 10px;
+  left: 8px;
+}
 
 /* End Carousel typing effect */
