@@ -168,58 +168,41 @@
 }
 
 .inner-page-content .ten-steps .ten-steps-heading {
-  font-size: 25px;
-  font-weight: 500;
+  font-size: 17px;
+  text-transform: capitalize;
+  font-weight: 700;
   margin-top: 30px;
-  border-bottom: 1px solid #d8d8d8;
+  color: #000000;
+  border: 3px solid #ed1a3b;
   margin-bottom: 20px;
 }
 
-.inner-page-content .ten-steps .steps {
-  background-color: #e4203a;
-  padding: 20px 0px;
-  border-top-right-radius: 85px;
-  border-bottom-right-radius: 85px;
-  text-align: center;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+.inner-page-content .ten-steps .ten-steps-heading img {
+  width: 20%;
 }
 
-.inner-page-content .ten-steps .step-text,
-.inner-page-content .ten-steps .step-count {
+.inner-page-content .ten-steps .description-box {
+  border: 3px solid #ed1a3b;
+  padding: 5px 5px 5px 0px;
+}
+
+.inner-page-content .ten-steps .description-box .description {
+  padding: 10px;
+}
+
+.inner-page-content .ten-steps .description-box h6 {
+  color: #000000;
+  font-size: 17px;
+  font-weight: 500;
+  padding-top: 20px;
+}
+
+.inner-page-content .ten-steps span {
+  background-color: #ed1a3b;
   color: #ffffff;
-  font-size: 27px;
-  font-weight: bold;
-  line-height: normal;
-}
-
-.inner-page-content .ten-steps .step-text {
-  margin-right: 10px;
-}
-
-.inner-page-content .ten-steps .step-count {
-  color: #fff;
-}
-
-.inner-page-content .ten-steps > .row {
-  margin-bottom: 10px;
-}
-
-.inner-page-content .ten-steps .process-details {
-  background-color: #ececec;
-  padding: 15px;
-  border-radius: 5px;
-  margin-left: 40px;
-  -webkit-box-shadow: 1px 1px 3px 1px #d2d2d2;
-          box-shadow: 1px 1px 3px 1px #d2d2d2;
-}
-
-.inner-page-content .ten-steps .process-details h3 {
-  font-weight: 400;
-}
-
-.inner-page-content .ten-steps .col-md-9 {
-  padding-right: 0px;
+  padding: 15px 15px 13px 10px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
 }
 
 .acquisition-page .page-title {
@@ -404,11 +387,7 @@ ul.tl li .timestamp {
 }
 
 .about-page .box1 {
-  min-height: 367px;
-}
-
-.about-page .box2 {
-  min-height: 510px;
+  min-height: 930px;
 }
 
 .about-page .team-profile {
@@ -432,6 +411,7 @@ ul.tl li .timestamp {
 
 .about-page .team-profile p {
   font-size: 16px;
+  padding: 0px 10px;
 }
 
 .about-page .team-profile .team-social a {
