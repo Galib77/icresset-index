@@ -168,41 +168,62 @@
 }
 
 .inner-page-content .ten-steps .ten-steps-heading {
-  font-size: 17px;
+  font-size: 20px;
   text-transform: capitalize;
-  font-weight: 700;
+  font-weight: 500;
   margin-top: 30px;
-  color: #000000;
-  border: 3px solid #ed1a3b;
-  margin-bottom: 20px;
+  color: #ffffff;
+  border: 0px solid #b7b3b4;
+  margin-bottom: 0px;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #3c3b3bc9;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
 }
 
 .inner-page-content .ten-steps .ten-steps-heading img {
   width: 20%;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
 }
 
 .inner-page-content .ten-steps .description-box {
-  border: 3px solid #ed1a3b;
+  border: 1px solid #cacaca4a;
   padding: 5px 5px 5px 0px;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  min-height: 625px;
 }
 
 .inner-page-content .ten-steps .description-box .description {
-  padding: 10px;
+  line-height: 1.5;
+  font-size: 15px;
+  padding-left: 60px;
+  padding-right: 10px;
 }
 
 .inner-page-content .ten-steps .description-box h6 {
-  color: #000000;
+  color: var(--brand-red-color);
   font-size: 17px;
   font-weight: 500;
   padding-top: 20px;
+  margin-bottom: 3px;
 }
 
-.inner-page-content .ten-steps span {
-  background-color: #ed1a3b;
-  color: #ffffff;
-  padding: 15px 15px 13px 10px;
-  border-bottom-right-radius: 30px;
-  border-top-right-radius: 30px;
+.inner-page-content .ten-steps .description-box span {
+  background-color: #65656575;
+  color: #3c3c3c;
+  padding: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 12px;
+  margin-left: 10px;
+  margin-right: 5px;
 }
 
 .acquisition-page .page-title {
@@ -553,4 +574,3 @@ ul.tl li .timestamp {
 
 /* Amitesh end */
 /* theming  end */
-/*# sourceMappingURL=page.css.map */
