@@ -168,6 +168,14 @@
   text-transform: uppercase !important;
 }
 
+.inner-page-content .ten-steps .col-md-4:hover .ten-steps-heading {
+  background-color: var(--brand-red-color);
+}
+
+.inner-page-content .ten-steps .col-md-4:hover .ten-steps-heading i.fas {
+  color: #fff;
+}
+
 .inner-page-content .ten-steps .ten-steps-heading {
   font-size: 20px;
   text-transform: capitalize;
@@ -209,6 +217,11 @@
   min-height: 625px;
   margin-bottom: 30px;
   overflow: hidden;
+}
+
+.inner-page-content .ten-steps .description-box div:hover span {
+  background-color: var(--brand-red-color);
+  color: #fff;
 }
 
 .inner-page-content .ten-steps .description-box .description {

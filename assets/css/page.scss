@@ -161,7 +161,16 @@
       font-weight: 400;
       text-transform: uppercase !important;
     }
-
+    .col-md-4{
+      &:hover{
+        .ten-steps-heading{
+          background-color: var(--brand-red-color);
+          i.fas{
+            color: #fff;
+          }
+        }
+      }
+    }
     .ten-steps-heading{
       font-size: 20px;
       text-transform: capitalize;
@@ -206,6 +215,10 @@
     margin-bottom: 30px;
     overflow: hidden;
 
+    div:hover span{
+      background-color: var(--brand-red-color);
+      color: #fff;
+    }
       .description {
         line-height: 1.5;
         font-size: 15px;
