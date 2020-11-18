@@ -182,12 +182,23 @@
   background-color: #3c3b3bc9;
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  padding-bottom: 14px;
+  padding-top: 12px;
 }
 
-.inner-page-content .ten-steps .ten-steps-heading img {
-  width: 20%;
-  -webkit-filter: grayscale(1);
-          filter: grayscale(1);
+.inner-page-content .ten-steps .ten-steps-heading i.fas {
+  position: relative;
+  width: 46px;
+  height: 27px;
+  margin-top: -3px;
+  font-size: 40px;
+  color: #b8b8b8;
+}
+
+.inner-page-content .ten-steps .ten-steps-heading i.fas:before {
+  position: absolute;
+  top: 2px;
+  left: 0;
 }
 
 .inner-page-content .ten-steps .description-box {
