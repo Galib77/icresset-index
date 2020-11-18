@@ -182,16 +182,20 @@
     }
 
   .description-box {
-      border: 1px solid #cacaca4a;
-      padding: 5px 5px 5px 0px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
-      min-height: 625px;
+    border: 1px solid #cacaca4a;
+    padding: 5px 5px 5px 0px;
+    -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.07);
+    min-height: 625px;
+    margin-bottom: 30px;
+    overflow: hidden;
 
       .description {
         line-height: 1.5;
         font-size: 15px;
         padding-left: 60px;
         padding-right: 10px;
+        
       }
       h6 {
         color: var(--brand-red-color);

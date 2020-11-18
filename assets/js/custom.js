@@ -63,4 +63,87 @@ jQuery(function ($) {
         }, 5000);
     }, 500);
 
+    // var $this = $('#ten-steps-to-hire');
+
+    // var position = $this.position();
+    // $('#ten-steps-to-hire').scrollspy({
+    //     min: position.top,
+    //     max: position.top + $this.height(),
+    //     onEnter: function onEnter(element/*, position*/) {
+    //         // $('body').css('background-color', element.id);
+    //         window.console.log('Entering ' + element.id);
+    //     },
+    //     onLeave: function onLeave(element/*, position*/) {
+    //         window.console.log('Leaving ' + element.id);
+    //     }
+    // });
 }(jQuery));
+
+// Animate the ten steps on acquisition page
+(function($){
+    var timers = [];
+    var $this = $('#ten-steps-to-hire');
+
+    $('.col-md-4.main-grid', $this).css({visibility: 'hidden'});
+    $('.description-box div', $this).css({visibility: 'hidden'});
+
+    function removeAnimation() {
+        $($this).scrollspy({}, 'destroy');
+        
+        $('.col-md-4.main-grid', $this).each(function(){
+            $(this).removeClass('animate__animated animate__slideInLeft');
+            $('.description-box div', this).removeClass('animate__animated animate__fadeInUp animate__slow');
+        });
+
+        $('.col-md-4.main-grid', $this).css({visibility: 'hidden'});
+        $('.description-box div', $this).css({visibility: 'hidden'});
+        $(timers).each(function(){
+            clearInterval(this);        
+        });
+    }
+    $('#collapseExecutive').on('hidden.bs.collapse', removeAnimation);
+
+    $('#collapseExecutive').on('shown.bs.collapse', function () {
+        setTimeout(function(){
+
+        
+    var position = $this.position();
+    $($this).scrollspy({
+        min: position.top,
+        max: position.top + $this.height() * 1.5,
+        onEnter: function onEnter(element/*, position*/) {
+            console.log('enter');
+            $('.col-md-4.main-grid', element).each(function(idx){
+                var elem = this;
+
+                timers.push(setTimeout(function(){
+                    $(elem).css({visibility: 'visible'});
+                    $(elem).addClass('animate__animated animate__slideInLeft');
+
+                    if(idx===2){
+                        timers.push(setTimeout(function(){
+                            $('.description-box div', element).each(function(id1){
+                                var txt = this;
+                                timers.push(setTimeout(function(){
+                                    $(txt).css({visibility: 'visible'});
+                                    $(txt).addClass('animate__animated animate__fadeInUp animate__slow');
+                                }, 300 * id1));
+                            });
+                        }, 1000));
+                        
+                    }
+                }, 1000 * idx));
+            });
+        },
+        onLeave: function onLeave(element/*, position*/) {
+            console.log('leave');
+            $('.col-md-4.main-grid', element).each(function(){
+                $(this).removeClass('animate__animated animate__slideInLeft');
+                $('.description-box div', this).removeClass('animate__animated animate__fadeInUp animate__slow');
+            });
+            $($this).scrollspy({}, 'destroy');
+        }
+    });
+}, 200);
+    });
+})(jQuery);
