@@ -214,7 +214,7 @@
   padding: 5px 5px 5px 0px;
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.07);
-  min-height: 625px;
+  min-height: 580px;
   margin-bottom: 30px;
   overflow: hidden;
 }
@@ -235,7 +235,7 @@
   color: var(--brand-red-color);
   font-size: 17px;
   font-weight: 500;
-  padding-top: 20px;
+  padding-top: 10px;
   margin-bottom: 3px;
 }
 
