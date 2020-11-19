@@ -127,12 +127,12 @@ jQuery(function ($) {
                                 timers.push(setTimeout(function(){
                                     $(txt).css({visibility: 'visible'});
                                     $(txt).addClass('animate__animated animate__fadeInUp animate__slow');
-                                }, 300 * id1));
+                                }, 200 * id1));
                             });
-                        }, 1000));
+                        }, 500));
                         
                     }
-                }, 1000 * idx));
+                }, 900 * idx));
             });
         },
         onLeave: function onLeave(element/*, position*/) {
