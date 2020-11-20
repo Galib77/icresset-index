@@ -580,6 +580,16 @@
 .about-page .team-info-text ul li i {
   margin-left: -24px;
   margin-right: 5px;
+  display: inline-block;
+  color: #8e8e8e;
+  position: relative;
+}
+
+.about-page .team-profile ul li i:before,
+.about-page .team-info-text ul li i:before {
+  top: -24px;
+  position: absolute;
+  left: 0px;
 }
 
 .about-page .team-profile ul li p,
@@ -595,13 +605,18 @@
   text-align: center;
 }
 
+.about-page .team-profile i.fa-certificate:before,
+.about-page .team-info-text i.fa-certificate:before {
+  top: -13px;
+}
+
 .about-page .team-profile .certificate-span,
 .about-page .team-info-text .certificate-span {
   margin-left: -2px;
 }
 
 .about-page .box1 {
-  min-height: 930px;
+  min-height: 845px;
 }
 
 .about-page .team-profile {
@@ -620,7 +635,11 @@
 }
 
 .about-page .team-profile span {
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 15px;
+  display: inline-block;
+  /* width: 98%; */
+  padding-left: 15px;
 }
 
 .about-page .team-profile p {
