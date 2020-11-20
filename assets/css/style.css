@@ -2724,3 +2724,8 @@ section.quote-section{
 }
 
 /* End Carousel typing effect */
+.small-logo{
+  height: 20px;
+  vertical-align: text-bottom;
+  margin-right: 2px;
+}

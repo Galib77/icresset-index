@@ -112,7 +112,6 @@ jQuery(function ($) {
         min: position.top,
         max: position.top + $this.height() * 1.5,
         onEnter: function onEnter(element/*, position*/) {
-            console.log('enter');
             $('.col-md-4.main-grid', element).each(function(idx){
                 var elem = this;
 
@@ -145,5 +144,38 @@ jQuery(function ($) {
         }
     });
 }, 200);
+    });
+})(jQuery);
+
+// Animate the ten steps on acquisition page
+(function($){
+    var timers = [];
+    var animationType = ['animate__slideInLeft', 'animate__zoomIn', 'animate__slideInRight'];
+    // var animationType = ['animate__zoomIn', 'animate__zoomIn', 'animate__zoomIn'];
+    
+    var $this = $('.assesment-page .partner-nav');
+    
+    $('.col-lg-4.col-sm-4', $this).css({visibility: 'hidden'});
+        
+    var position = $this.position();
+    $($this).scrollspy({
+        min: position.top,
+        max: position.top + $this.height() * 3,
+        onEnter: function onEnter(element/*, position*/) {
+            console.log('enter');
+            $('.col-lg-4.col-sm-4', $this).css({visibility: 'hidden'});
+            $('.col-lg-4.col-sm-4', element).each(function(idx){
+                var elem = this;
+                $(elem).css({visibility: 'visible'});
+                $(elem).addClass(`animate__animated ${animationType[idx]}`);
+            });
+        },
+        onLeave: function onLeave(element/*, position*/) {
+            console.log('leave');
+            $('.col-lg-4.col-sm-4', element).each(function(idx){
+                $(this).removeClass(`animate__animated ${animationType[idx]}`);
+            });
+            // $($this).scrollspy({}, 'destroy');
+        }
     });
 })(jQuery);
