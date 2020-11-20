@@ -267,6 +267,71 @@
   background-image: url(../img/page-banners/assesment.jpg);
 }
 
+.assesment-page .job-fit-company-logo img {
+  width: 80%;
+  cursor: pointer;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.assesment-page .prevue-hiring {
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  margin-bottom: 30px;
+  padding: 10px 5px 5px 5px;
+  min-height: 50px;
+}
+
+.assesment-page .arrow-icon img {
+  width: 70%;
+  margin-top: 20px;
+}
+
+.assesment-page .measures h5 {
+  color: #ed1a3b;
+}
+
+.assesment-page .measures h6 {
+  color: var(--brand-black-color);
+  font-weight: 400;
+}
+
+.assesment-page .compares h5 {
+  color: #ed1a3b;
+}
+
+.assesment-page .compares h6 {
+  color: var(--brand-black-color);
+  font-weight: 400;
+}
+
+.assesment-page .measures h6 {
+  color: var(--brand-black-color);
+  font-weight: 400;
+}
+
+.assesment-page .predicts h5 {
+  color: #ed1a3b;
+}
+
+.skill-survey h6 {
+  color: #ed1a3b;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.refrence-check h5 {
+  color: var(--brand-black-color);
+  font-weight: 400;
+}
+
+.steps {
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
 .reference-check-tl-container {
   font-family: 'Kumbh Sans', sans-serif !important;
   width: 100%;
@@ -601,3 +666,4 @@ ul.tl li .timestamp {
 
 /* Amitesh end */
 /* theming  end */
+/*# sourceMappingURL=page.css.map */

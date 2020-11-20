@@ -272,7 +272,65 @@
     color: yellow;
     background-image: url(../img/page-banners/assesment.jpg);
   }
-}
+
+  .job-fit-company-logo img {
+    width: 80%;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+    .prevue-hiring {
+      -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+      margin-bottom: 30px;
+      padding: 10px 5px 5px 5px;
+      min-height: 50px;
+    }
+    .arrow-icon img {
+      width: 70%;
+      margin-top: 20px;
+    }
+    .measures h5 {
+      color: #ed1a3b;
+    }
+    .measures h6 {
+      color: var(--brand-black-color);
+      font-weight: 400;
+    }
+    .compares h5{
+      color: #ed1a3b;
+    }
+
+    .compares h6 {
+      color: var(--brand-black-color);
+      font-weight: 400;
+    }
+      .measures h6 {
+        color: var(--brand-black-color);
+        font-weight: 400;
+      }
+    .predicts h5{
+      color: #ed1a3b;
+    }
+  }
+
+  .skill-survey h6{
+    color: #ed1a3b;
+    font-weight: 400;
+    padding-top: 20px;
+  }
+
+  .refrence-check h5 {
+    color: var(--brand-black-color);
+    font-weight: 400;
+  }
+
+  .steps {
+    -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
 
 .reference-check-tl-container {
   font-family: 'Kumbh Sans', sans-serif !important;
