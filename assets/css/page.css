@@ -609,7 +609,6 @@
 .research-page .timeline ul li {
   padding: 10px 0px 10px 10px;
   position: relative;
-  cursor: pointer;
   -webkit-transition: .5s;
   transition: .5s;
 }
