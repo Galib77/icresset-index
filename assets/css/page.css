@@ -505,6 +505,56 @@
   background-image: url(../img/page-banners/research.jpg);
 }
 
+.research-page .three-pillars {
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  margin-bottom: 30px;
+  padding: 10px 10px;
+  min-height: 210px;
+}
+
+.research-page .three-pillars p {
+  font-size: 15px;
+  padding: 2px 10px;
+}
+
+.research-page .three-pillars h6 {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding: 12px 2px 8px 2px;
+  background-color: var(--brand-red-color);
+  color: #fff;
+  line-height: 20px;
+}
+
+.research-page .three-pillars .research-banner {
+  margin-left: -10px;
+  margin-right: -10px;
+  text-align: center;
+  height: 153px;
+  overflow: hidden;
+}
+
+.research-page .three-pillars .research-banner img {
+  width: 100%;
+}
+
+.research-page .three-pillars .research-banner.talent-benchmarking {
+  background-color: #114d69;
+}
+
+.research-page .three-pillars .research-banner.talent-benchmarking img {
+  height: 151px;
+  width: 75%;
+}
+
+.research-page .research-content h3, .research-page .research-content h5, .research-page .research-content h6 {
+  text-transform: none !important;
+}
+
 .research-page .talent-mapping-heading h5, .research-page h6 {
   color: var(--brand-black-color);
   font-weight: 400;
@@ -852,4 +902,3 @@
 
 /* Amitesh end */
 /* theming  end */
-/*# sourceMappingURL=page.css.map */
