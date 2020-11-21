@@ -540,15 +540,26 @@
 
 .research-page .three-pillars .research-banner img {
   width: 100%;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
 }
 
 .research-page .three-pillars .research-banner.talent-benchmarking {
-  background-color: #114d69;
+  background-color: #4e4e4e;
 }
 
 .research-page .three-pillars .research-banner.talent-benchmarking img {
   height: 151px;
   width: 75%;
+}
+
+.research-page .three-pillars:hover img {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.research-page .three-pillars:hover .research-banner.talent-benchmarking {
+  background-color: #114d69;
 }
 
 .research-page .research-content h3, .research-page .research-content h5, .research-page .research-content h6 {
@@ -563,25 +574,40 @@
 .research-page .timeline {
   width: 100%;
   color: #fff;
-  padding: 30px 20px;
+  padding: 15px 15px;
   -webkit-box-shadow: 0 0px 30px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0px 30px rgba(0, 0, 0, 0.2);
   margin-bottom: 10px;
+  min-height: 556px;
 }
 
 .research-page .timeline h5 {
   color: var(--brand-black-color);
-  font-weight: 400;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.research-page .timeline h5 .fas {
+  color: #8a8989;
+  font-size: 28px;
+  background-color: #dfdfdf;
+  border-radius: 4px;
+  height: 37px;
+  width: 37px;
+  padding: 5px 5px;
+  margin-right: 10px;
+  text-align: center;
 }
 
 .research-page .timeline ul {
   list-style-type: none;
   border-left: 2px solid #929292;
-  padding: 15px 5px;
+  padding: 0 5px;
+  min-height: 476px;
 }
 
 .research-page .timeline ul li {
-  padding: 20px 20px;
+  padding: 10px 0px 10px 10px;
   position: relative;
   cursor: pointer;
   -webkit-transition: .5s;
@@ -590,23 +616,24 @@
 
 .research-page .timeline ul li span {
   display: inline-block;
-  background-color: #ed1a3b;
+  background-color: #8a8989;
   border-radius: 25px;
   padding: 2px 5px;
-  font-size: 15px;
+  font-size: 13px;
   text-align: center;
+  height: 20px;
 }
 
 .research-page .timeline ul li .content h3 {
-  color: #000000;
-  font-size: 17px;
+  color: var(--brand-red-color);
+  font-size: 14px;
   padding-top: 5px;
 }
 
 .research-page .timeline ul li .content p {
-  padding: 5px 0px 15px 0px;
   color: #000000;
-  font-size: 15px;
+  font-size: 14px;
+  padding: 0;
 }
 
 .research-page .timeline ul li:before {
@@ -617,7 +644,7 @@
   background-color: #b90824;
   border-radius: 50%;
   left: -11px;
-  top: 28px;
+  top: 18px;
   -webkit-transition: .5s;
   transition: .5s;
 }
