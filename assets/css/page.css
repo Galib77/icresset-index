@@ -505,8 +505,82 @@
   background-image: url(../img/page-banners/research.jpg);
 }
 
-.domain-page {
-  /* colors by clrs.cc*/
+.research-page .talent-mapping-heading h5, .research-page h6 {
+  color: var(--brand-black-color);
+  font-weight: 400;
+}
+
+.research-page .timeline {
+  width: 100%;
+  color: #fff;
+  padding: 30px 20px;
+  -webkit-box-shadow: 0 0px 30px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0px 30px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+.research-page .timeline h5 {
+  color: var(--brand-black-color);
+  font-weight: 400;
+}
+
+.research-page .timeline ul {
+  list-style-type: none;
+  border-left: 2px solid #929292;
+  padding: 15px 5px;
+}
+
+.research-page .timeline ul li {
+  padding: 20px 20px;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.research-page .timeline ul li span {
+  display: inline-block;
+  background-color: #ed1a3b;
+  border-radius: 25px;
+  padding: 2px 5px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.research-page .timeline ul li .content h3 {
+  color: #000000;
+  font-size: 17px;
+  padding-top: 5px;
+}
+
+.research-page .timeline ul li .content p {
+  padding: 5px 0px 15px 0px;
+  color: #000000;
+  font-size: 15px;
+}
+
+.research-page .timeline ul li:before {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: #b90824;
+  border-radius: 50%;
+  left: -11px;
+  top: 28px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+@media (max-width: 300px) {
+  .research-page .timeline {
+    width: 100%;
+    padding: 30px 5px 30px 10px;
+  }
+  .research-page .timeline ul li .content h3 {
+    color: #34ace0;
+    font-size: 15px;
+  }
 }
 
 .domain-page .page-title {
@@ -514,35 +588,27 @@
   background-image: url(../img/page-banners/domain.jpg);
 }
 
-.domain-page .flex-grid {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+.domain-page .all-domain img {
+  width: 200px;
 }
 
-.domain-page .flex-grid-item {
-  color: black;
-  text-transform: uppercase;
-  font-weight: 500;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  -ms-flex-negative: 1;
-      flex-shrink: 1;
-  -ms-flex-preferred-size: 25%;
-      flex-basis: 25%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #f1f1f18f;
+.domain-page .title h5 {
+  font-size: 16px;
+  padding-top: 2px;
+  color: var(--brand-black-color);
+  font-weight: 400;
+}
+
+.domain-page .our-domain h5 {
+  color: var(--brand-black-color);
+  font-weight: 400;
+}
+
+.domain-page .our-domain-expertise, .domain-page .lifescience, .domain-page .chemicals, .domain-page .agri, .domain-page .industrial, .domain-page .startups {
+  -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px 30px;
+  margin-bottom: 15px;
 }
 
 .opportunities-page .page-title {
@@ -786,3 +852,4 @@
 
 /* Amitesh end */
 /* theming  end */
+/*# sourceMappingURL=page.css.map */
