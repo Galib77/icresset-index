@@ -684,7 +684,30 @@
   -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
           box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
   padding: 20px 30px;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
+}
+
+.domain-page .our-domain-expertise ul li, .domain-page .lifescience ul li, .domain-page .chemicals ul li, .domain-page .agri ul li, .domain-page .industrial ul li, .domain-page .startups ul li {
+  color: #313131;
+  padding-top: 5px;
+}
+
+.domain-page .our-domain-expertise img, .domain-page .lifescience img, .domain-page .chemicals img, .domain-page .agri img, .domain-page .industrial img, .domain-page .startups img {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  padding-bottom: 10px;
+}
+
+.domain-page .our-domain-expertise img:hover, .domain-page .lifescience img:hover, .domain-page .chemicals img:hover, .domain-page .agri img:hover, .domain-page .industrial img:hover, .domain-page .startups img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.domain-page .functions ul li {
+  color: #313131;
+  padding-top: 5px;
 }
 
 .opportunities-page .page-title {
@@ -928,3 +951,4 @@
 
 /* Amitesh end */
 /* theming  end */
+/*# sourceMappingURL=page.css.map */
