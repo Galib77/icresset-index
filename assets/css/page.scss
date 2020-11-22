@@ -656,12 +656,18 @@
     color: yellow;
     background-image: url(../img/page-banners/domain.jpg);
   }
+
+  .all-domain {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    padding-top: 15px;
+  } 
   .all-domain  img {
-    width: 200px;
+    width: 300px;
   }
   .title h5{
     font-size: 16px;
     padding-top: 2px;
+    padding-bottom: 2px;
     color: var(--brand-black-color);
     font-weight: 400;
   }
