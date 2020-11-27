@@ -678,6 +678,10 @@
   font-size: 16px;
   color: var(--brand-black-color);
   font-weight: 400;
+  position: relative;
+  top: 230px;
+  background-color: rgba(100, 100, 100, 0.8);
+  color: #ffffff;
 }
 
 .domain-page .our-domain h5 {
@@ -693,6 +697,7 @@
 }
 
 .domain-page .our-domain-expertise h5, .domain-page .lifescience h5, .domain-page .chemicals h5, .domain-page .agri h5, .domain-page .industrial h5, .domain-page .startups h5 {
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 
