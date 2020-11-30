@@ -664,24 +664,47 @@
   background-image: url(../img/page-banners/domain.jpg);
 }
 
+.domain-page .details-card {
+  padding: 30px;
+}
+
 .domain-page .all-domain {
   padding: 0;
-  margin: 0;
+  margin: 0 0 30px 0;
+  position: relative;
+}
+
+.domain-page .all-domain:hover img {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.domain-page .all-domain:hover h5 {
+  background-color: var(--brand-red-color);
 }
 
 .domain-page .all-domain img {
   width: 330px;
   border-radius: 0px;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
-.domain-page .title h5 {
-  font-size: 16px;
-  color: var(--brand-black-color);
+.domain-page .all-domain h5 {
+  font-size: 20px;
   font-weight: 400;
-  position: relative;
-  top: 230px;
-  background-color: rgba(100, 100, 100, 0.8);
+  position: absolute;
+  bottom: 0;
+  background-color: #ed1a3be0;
   color: #ffffff;
+  width: 100%;
+  height: 38px;
+  padding: 8px 0 0 0;
+  margin: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .domain-page .our-domain h5 {
@@ -689,24 +712,45 @@
   font-weight: 400;
 }
 
-.domain-page .our-domain-expertise, .domain-page .lifescience, .domain-page .chemicals, .domain-page .agri, .domain-page .industrial, .domain-page .startups {
+.domain-page .our-domain-expertise,
+.domain-page .lifescience,
+.domain-page .chemicals,
+.domain-page .agri,
+.domain-page .industrial,
+.domain-page .startups {
   -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
           box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
   padding: 20px 30px;
   margin-bottom: 35px;
 }
 
-.domain-page .our-domain-expertise h5, .domain-page .lifescience h5, .domain-page .chemicals h5, .domain-page .agri h5, .domain-page .industrial h5, .domain-page .startups h5 {
-  padding-top: 10px;
+.domain-page .our-domain-expertise h5,
+.domain-page .lifescience h5,
+.domain-page .chemicals h5,
+.domain-page .agri h5,
+.domain-page .industrial h5,
+.domain-page .startups h5 {
+  padding-top: 30px;
   padding-bottom: 10px;
+  color: var(--brand-red-color);
 }
 
-.domain-page .our-domain-expertise ul li, .domain-page .lifescience ul li, .domain-page .chemicals ul li, .domain-page .agri ul li, .domain-page .industrial ul li, .domain-page .startups ul li {
+.domain-page .our-domain-expertise ul li,
+.domain-page .lifescience ul li,
+.domain-page .chemicals ul li,
+.domain-page .agri ul li,
+.domain-page .industrial ul li,
+.domain-page .startups ul li {
   color: #313131;
   padding-top: 5px;
 }
 
-.domain-page .our-domain-expertise img, .domain-page .lifescience img, .domain-page .chemicals img, .domain-page .agri img, .domain-page .industrial img, .domain-page .startups img {
+.domain-page .our-domain-expertise img,
+.domain-page .lifescience img,
+.domain-page .chemicals img,
+.domain-page .agri img,
+.domain-page .industrial img,
+.domain-page .startups img {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   -webkit-filter: grayscale(1);
@@ -715,7 +759,12 @@
   padding-top: 8px;
 }
 
-.domain-page .our-domain-expertise img:hover, .domain-page .lifescience img:hover, .domain-page .chemicals img:hover, .domain-page .agri img:hover, .domain-page .industrial img:hover, .domain-page .startups img:hover {
+.domain-page .our-domain-expertise img:hover,
+.domain-page .lifescience img:hover,
+.domain-page .chemicals img:hover,
+.domain-page .agri img:hover,
+.domain-page .industrial img:hover,
+.domain-page .startups img:hover {
   -webkit-filter: grayscale(0);
           filter: grayscale(0);
 }
@@ -966,4 +1015,3 @@
 
 /* Amitesh end */
 /* theming  end */
-/*# sourceMappingURL=page.css.map */
