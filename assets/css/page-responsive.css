@@ -1,0 +1,112 @@
+/* Ipadpro */
+@media only screen and (max-width: 1199px) {
+  /* navbar */
+  .top-bar .nav {
+    float: right;
+    padding-right: 62px;
+  }
+  .top-navigation-bar ul li a, .top-navigation-bar ul li span {
+    font-size: 12px;
+  }
+  .nav-item a img {
+    width: 12px;
+  }
+  .navbar-area .main-nav .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 13px !important;
+  }
+  /* banner */
+  /* about */
+  .about-page .team-profile {
+    margin-bottom: 25px;
+  }
+}
+
+/* Ipad*/
+@media only screen and (max-width: 991px) {
+  /* navbar */
+  .top-navigation-bar ul li a, .top-navigation-bar ul li span {
+    font-size: 10px;
+  }
+  .nav-item a img {
+    width: 2px;
+  }
+  /* about */
+  .about-page .team-profile {
+    margin-bottom: 25px;
+  }
+  /* acquisition */
+  .inner-page-content .pillars h2 {
+    font-size: 20px;
+  }
+  .pillars .three-pillars h6 {
+    font-size: 10px !important;
+  }
+  .inner-page-content .pillars .three-pillars p {
+    font-size: 12px !important;
+  }
+  .inner-page-content .ten-steps h2 {
+    font-size: 20px;
+  }
+  .inner-page-content .ten-steps .ten-steps-heading {
+    font-size: 15px !important;
+  }
+  .inner-page-content .ten-steps .ten-steps-heading i.fas:before {
+    font-size: 25px;
+    width: 10px !important;
+  }
+  .inner-page-content .ten-steps .description-box h6 {
+    font-size: 15px !important;
+  }
+  .inner-page-content .ten-steps .ten-steps-heading i.fas {
+    height: 19px !important;
+  }
+}
+
+/* mobile */
+@media (max-width: 767px) {
+  /* navbar */
+  .top-navigation-bar ul li a, .top-navigation-bar ul li span {
+    font-size: 10px;
+  }
+  .nav-item a img {
+    width: 2px;
+  }
+  /* about */
+  .about-page .team-profile {
+    margin-bottom: 25px;
+  }
+  /* contact */
+  .contact-page .contact-card h3 {
+    font-size: 14px;
+  }
+  .contact-page .contact-card ul li {
+    font-size: 14px;
+  }
+  .contact-page .contact-card {
+    min-height: 377px !important;
+  }
+  /* acquisition */
+  .inner-page-content .pillars h2 {
+    font-size: 20px;
+  }
+  .pillars .three-pillars h6 {
+    font-size: 12px !important;
+  }
+  .inner-page-content .ten-steps h2 {
+    font-size: 20px;
+  }
+  .inner-page-content .ten-steps .ten-steps-heading {
+    font-size: 15px !important;
+  }
+  .inner-page-content .ten-steps .ten-steps-heading i.fas:before {
+    font-size: 25px;
+    width: 10px !important;
+  }
+  .inner-page-content .ten-steps .description-box h6 {
+    font-size: 15px !important;
+  }
+  .inner-page-content .ten-steps .ten-steps-heading i.fas {
+    height: 19px !important;
+  }
+}
+/*# sourceMappingURL=page-responsive.css.map */
