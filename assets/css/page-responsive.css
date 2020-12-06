@@ -19,6 +19,13 @@
   .about-page .team-profile {
     margin-bottom: 25px;
   }
+  /* contact */
+  .contact-page .contact-card {
+    min-height: 327px !important;
+  }
+  .contact-page .contact-card h3, .contact-page .contact-card ul li {
+    font-size: 14px;
+  }
   .inner-page-content .pillars .three-pillars {
     min-height: 240px !important;
   }
@@ -74,15 +81,31 @@
   .nav-item a img {
     width: 15px;
   }
+  .theme-btn {
+    margin-bottom: 20px;
+  }
+  .testimonial4_slide img {
+    width: 250px !important;
+  }
   /* about */
   .about-page .team-profile {
     margin-bottom: 25px;
   }
-  .inner-page-content .pillars .three-pillars {
-    min-height: 180px !important;
+  /* contact */
+  .contact-page .contact-card {
+    min-height: 377px !important;
   }
-  .inner-page-content .pillars .three-pillars h6, .inner-page-content .pillars .three-pillars p {
+  .contact-page .contact-card h3, .contact-page .contact-card ul li {
+    font-size: 14px;
+  }
+  .inner-page-content .pillars .three-pillars {
+    min-height: 210px !important;
+  }
+  .inner-page-content .pillars .three-pillars h6 {
     font-size: 10px !important;
+  }
+  .inner-page-content .pillars .three-pillars p {
+    font-size: 12px !important;
   }
   .inner-page-content .ten-steps h2 {
     font-size: 20px;
@@ -91,7 +114,8 @@
     font-size: 10px !important;
   }
   .inner-page-content .ten-steps .description-box {
-    min-height: 600px !important;
+    min-height: 0px !important;
+    padding-bottom: 20px !important;
   }
   .inner-page-content .ten-steps .description-box h6 {
     font-size: 8px !important;
