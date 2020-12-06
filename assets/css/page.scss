@@ -741,6 +741,28 @@
   }
 }
 
+//functions page
+.functions-page {
+  .page-title {
+    color: yellow;
+    background-image: url(../img/page-banners/functions.jpg);
+  }
+  .functions-data h3 {
+    color: var(--brand-black-color);
+    font-weight: 400;
+    padding: 20px 0px 0px 0px;
+  }
+  .functions-data p {
+    border-bottom: 2px solid #e9ecef;
+    padding: 0px 0px 20px 0px;
+  }
+  .details-card ul li {
+    color: #313131;
+    padding-top: 5px;
+  }
+}
+
+
 //opportunities page
 .opportunities-page {
   .page-title {

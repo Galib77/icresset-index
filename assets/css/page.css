@@ -774,6 +774,27 @@
   padding-top: 5px;
 }
 
+.functions-page .page-title {
+  color: yellow;
+  background-image: url(../img/page-banners/functions.jpg);
+}
+
+.functions-page .functions-data h3 {
+  color: var(--brand-black-color);
+  font-weight: 400;
+  padding: 20px 0px 0px 0px;
+}
+
+.functions-page .functions-data p {
+  border-bottom: 2px solid #e9ecef;
+  padding: 0px 0px 20px 0px;
+}
+
+.functions-page .details-card ul li {
+  color: #313131;
+  padding-top: 5px;
+}
+
 .opportunities-page .page-title {
   color: yellow;
   background-image: url(../img/page-banners/opportunities.jpg);
