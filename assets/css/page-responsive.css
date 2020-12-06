@@ -19,6 +19,50 @@
   .about-page .team-profile {
     margin-bottom: 25px;
   }
+  .inner-page-content .pillars .three-pillars {
+    min-height: 240px !important;
+  }
+  .inner-page-content .pillars .three-pillars h6 {
+    font-size: 14px !important;
+  }
+  .inner-page-content .ten-steps h2 {
+    font-size: 20px;
+  }
+  .inner-page-content .ten-steps .ten-steps-heading {
+    font-size: 16px !important;
+  }
+  .inner-page-content .ten-steps .description-box {
+    min-height: 760px !important;
+  }
+  .inner-page-content .ten-steps .ten-steps-heading i.fas:before {
+    font-size: 25px;
+    width: 10px !important;
+  }
+  .inner-page-content .ten-steps .description-box h6 {
+    font-size: 15px !important;
+  }
+  .inner-page-content .ten-steps .ten-steps-heading i.fas {
+    height: 19px !important;
+  }
+  .assesment-page .arrow-icon img {
+    margin-top: 40px !important;
+  }
+  .assesment-page .measures img, .assesment-page .compares img, .assesment-page .predicts img {
+    width: 100% !important;
+  }
+  .saville-box ul li {
+    font-size: 14px;
+  }
+  .saville-box .col-md-4 img {
+    width: 60%;
+    margin-top: 50px !important;
+  }
+  .steps {
+    min-height: 220px !important;
+  }
+  .research-page .timeline {
+    min-height: 700px !important;
+  }
 }
 
 /* Ipad*/
@@ -34,21 +78,23 @@
   .about-page .team-profile {
     margin-bottom: 25px;
   }
-  /* acquisition */
-  .inner-page-content .pillars h2 {
-    font-size: 20px;
+  .inner-page-content .pillars .three-pillars {
+    min-height: 180px !important;
   }
-  .pillars .three-pillars h6 {
+  .inner-page-content .pillars .three-pillars h6, .inner-page-content .pillars .three-pillars p {
     font-size: 10px !important;
-  }
-  .inner-page-content .pillars .three-pillars p {
-    font-size: 12px !important;
   }
   .inner-page-content .ten-steps h2 {
     font-size: 20px;
   }
   .inner-page-content .ten-steps .ten-steps-heading {
-    font-size: 15px !important;
+    font-size: 10px !important;
+  }
+  .inner-page-content .ten-steps .description-box {
+    min-height: 600px !important;
+  }
+  .inner-page-content .ten-steps .description-box h6 {
+    font-size: 8px !important;
   }
   .inner-page-content .ten-steps .ten-steps-heading i.fas:before {
     font-size: 25px;
@@ -58,7 +104,65 @@
     font-size: 15px !important;
   }
   .inner-page-content .ten-steps .ten-steps-heading i.fas {
-    height: 19px !important;
+    height: 15px !important;
+  }
+  .inner-page-content .ten-steps .description-box span {
+    background-color: #65656575;
+    color: #3c3c3c;
+    padding: 2px !important;
+    border-radius: 50%;
+    width: 20px !important;
+    height: 20px !important;
+    display: inline-block;
+    text-align: center;
+    padding-top: 4px !important;
+    margin-left: 7px !important;
+    margin-right: 0px !important;
+  }
+  .inner-page-content .ten-steps .description-box .description {
+    font-size: 12px !important;
+    padding-left: 30px  !important;
+    padding-right: 10px  !important;
+  }
+  .assesment-page .prevue-hiring {
+    min-height: 60px !important;
+  }
+  .assesment-page .arrow-icon img {
+    width: 13% !important;
+    margin-top: 0px;
+    margin-bottom: 40px !important;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .assesment-page .measures img, .assesment-page .compares img, .assesment-page .predicts img {
+    width: 100% !important;
+  }
+  .saville-box ul li {
+    font-size: 12px;
+  }
+  .saville-box .col-md-4 img {
+    width: 60%;
+    margin-top: 100px !important;
+  }
+  .steps {
+    min-height: 250px !important;
+  }
+  .research-page .three-pillars .research-banner img {
+    width: 100%;
+    height: 160px;
+  }
+  .research-page .timeline h5 {
+    font-size: 12px !important;
+  }
+  .research-page .timeline ul li .content h3 {
+    font-size: 12px !important;
+  }
+  .research-page .timeline ul li .content p {
+    font-size: 11px !important;
+  }
+  .domain-page .all-domain h5 {
+    width: 52.2% !important;
+    left: 151px;
   }
 }
 
@@ -76,14 +180,11 @@
     margin-bottom: 25px;
   }
   /* contact */
-  .contact-page .contact-card h3 {
-    font-size: 14px;
-  }
-  .contact-page .contact-card ul li {
-    font-size: 14px;
-  }
   .contact-page .contact-card {
     min-height: 377px !important;
+  }
+  .contact-page .contact-card h3, .contact-page .contact-card ul li {
+    font-size: 14px;
   }
   /* acquisition */
   .inner-page-content .pillars h2 {
@@ -107,6 +208,25 @@
   }
   .inner-page-content .ten-steps .ten-steps-heading i.fas {
     height: 19px !important;
+  }
+  .assesment-page .job-fit-company-logo img {
+    margin-bottom: 20px;
+  }
+  .assesment-page .prevue-hiring {
+    margin-top: 40px;
+  }
+  .assesment-page .arrow-icon img {
+    width: 33% !important;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .assesment-page .measures img, .assesment-page .compares img, .assesment-page .predicts img {
+    width: 100% !important;
+  }
+  .saville-box .col-md-4 img {
+    width: 60%;
+    margin-top: 20px;
+    padding-bottom: 20px;
   }
 }
 /*# sourceMappingURL=page-responsive.css.map */
