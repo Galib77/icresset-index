@@ -1,5 +1,5 @@
 
-/* Ipadpro */
+/* iPad Pro */
 
 @media only  screen and (max-width: 1199px) {
    /* navbar */
@@ -115,7 +115,7 @@
 }
 
 
-/* Ipad*/
+/* iPad */
 
 @media only  screen and (max-width: 991px) {
 
@@ -290,7 +290,7 @@
   }
 }
 
-/* mobile */
+/* Mobile */
 
 @media (max-width: 767px) {
 
@@ -380,5 +380,22 @@
     width: 60%;
     margin-top: 20px;
     padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  // home page slider styles
+  .carousel-control-prev-icon, 
+  .carousel-control-next-icon{
+    width: 30px;
+    height: 30px;
+    background-size: 45%;
+    margin-top: 0 !important;
+  }
+  .carousel-item{
+    min-height: 235px;
+  }
+  .first-slide{
+    padding-left: 0;
   }
 }

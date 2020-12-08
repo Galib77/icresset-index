@@ -1,4 +1,4 @@
-/* Ipadpro */
+/* iPad Pro */
 @media only screen and (max-width: 1199px) {
   /* navbar */
   .top-bar .nav {
@@ -72,7 +72,7 @@
   }
 }
 
-/* Ipad*/
+/* iPad */
 @media only screen and (max-width: 991px) {
   /* navbar */
   .top-navigation-bar ul li a, .top-navigation-bar ul li span {
@@ -190,7 +190,7 @@
   }
 }
 
-/* mobile */
+/* Mobile */
 @media (max-width: 767px) {
   /* navbar */
   .top-navigation-bar ul li a, .top-navigation-bar ul li span {
@@ -253,4 +253,19 @@
     padding-bottom: 20px;
   }
 }
-/*# sourceMappingURL=page-responsive.css.map */
+
+@media (max-width: 320px) {
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+    background-size: 45%;
+    margin-top: 0 !important;
+  }
+  .carousel-item {
+    min-height: 235px;
+  }
+  .first-slide {
+    padding-left: 0;
+  }
+}
