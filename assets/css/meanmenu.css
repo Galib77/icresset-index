@@ -233,7 +233,9 @@ a.meanmenu-reveal{
 			position:absolute;top:11px;
 			z-index:999;
 			left:15px;
-			color:#fff;font-weight:700;text-transform:uppercase;
+			color:#fff;
+			font-weight:700;
+			text-transform:uppercase;
 			font-size:20px;
 		}
 

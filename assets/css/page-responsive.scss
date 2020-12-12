@@ -120,6 +120,14 @@
 @media only  screen and (max-width: 991px) {
 
     /* navbar */
+.mean-container .mean-nav ul li a {
+      color: #000000;
+      font-size: 18px;
+  }
+   
+.mean-container .mean-nav ul li li a {
+     color: #000000;
+  }    
 
 .top-navigation-bar ul li {
     a, span {
@@ -296,6 +304,15 @@
 
  /* navbar */
 
+ .mean-container .mean-nav ul li a {
+   color: #000000;
+   font-size: 18px;
+ }
+
+ .mean-container .mean-nav ul li li a {
+  color: #000000;
+}
+
 .top-navigation-bar ul li {
     a, span {
       font-size: 10px;
@@ -321,7 +338,14 @@
   
     min-height: 377px !important;
   }
-  
+
+  /* bottom footer */
+  .bottom-nav .text-white {
+    text-align: center;
+  }
+  .bottom-nav ul {
+    text-align: center !important;
+  }
   /* acquisition */
   
   .inner-page-content .pillars h2 {
