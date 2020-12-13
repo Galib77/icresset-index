@@ -1,0 +1,549 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  // home page slider styles
+  .carousel-control-next,
+  .carousel-control-prev {
+    top: 36%;
+    z-index: 10;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+    background-size: 45%;
+    margin-top: 0 !important;
+  }
+
+  #carouselExampleCaptions .carousel-item img {
+    height: 158px !important;
+  }
+
+  .carousel-caption {
+    width: 95%;
+    left: 3%;
+  }
+
+  .carousel-item {
+    min-height: 158px;
+  }
+  .first-slide {
+    padding-left: 0;
+  }
+  .carousel-inner {
+    h2 {
+      font-size: 13px;
+      margin-bottom: 2px;
+    }
+    h5,
+    h5.caption-first {
+      font-size: 9px;
+      margin-bottom: 2px;
+    }
+    .carousel-caption {
+      width: 95%;
+      left: 3%;
+      top: 64%;
+      height: 65px;
+
+      h5:last-child {
+        font-size: 11px;
+      }
+
+      .banner-left-bracket,
+      .banner-right-bracket {
+        height: 14px;
+      }
+    }
+    .active .slide0-banner-text .typewritter {
+      width: 194px;
+    }
+    .active .dot {
+      font-size: 22px;
+      width: 16px;
+      &:after {
+        top: 4px;
+        left: 4px;
+      }
+    }
+  } // inner
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Start Slider */
+  // home page slider styles
+  .carousel-control-next,
+  .carousel-control-prev {
+    top: 40%;
+    z-index: 10;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+    background-size: 45%;
+    margin-top: 0 !important;
+  }
+
+  #carouselExampleCaptions .carousel-item img {
+    height: 144px !important;
+  }
+
+  .carousel-caption {
+    width: 95%;
+    left: 3%;
+  }
+
+  .carousel-item {
+    min-height: 158px;
+  }
+  .first-slide {
+    padding-left: 0;
+  }
+  .carousel-inner {
+    h2 {
+      font-size: 14px;
+      margin-bottom: 2px;
+    }
+    h5,
+    h5.caption-first {
+      font-size: 10px;
+      margin-bottom: 2px;
+    }
+    .carousel-caption {
+      width: 95%;
+      left: 3%;
+      top: 62%;
+      height: 65px;
+
+      h5:last-child {
+        font-size: 13px;
+      }
+
+      .banner-left-bracket,
+      .banner-right-bracket {
+        height: 14px;
+      }
+    }
+    .active .slide0-banner-text .typewritter {
+      width: 194px;
+    }
+    .active .dot {
+      font-size: 22px;
+      width: 16px;
+      &:after {
+        top: 4px;
+        left: 4px;
+      }
+    }
+  } // inner
+  /* End Slider */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */
+}
+
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+/* iPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+  /* Start Slider */
+  // home page slider styles
+  .carousel-control-next,
+  .carousel-control-prev {
+    top: 26%;
+    z-index: 10;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    // width: 30px;
+    // height: 30px;
+    // background-size: 45%;
+    margin-top: 0 !important;
+  }
+  #carouselExampleCaptions .carousel-item img {
+    height: 256px !important;
+  }
+  .carousel-caption {
+    width: 95%;
+    left: 3%;
+  }
+
+  .carousel-item {
+    min-height: 158px;
+  }
+  .first-slide {
+    padding-left: 0;
+  }
+  .carousel-inner {
+    h2 {
+      font-size: 30px;
+      margin-bottom: 2px;
+    }
+    h5,
+    h5.caption-first {
+      // font-size: 10px;
+      margin-bottom: 2px;
+    }
+    .carousel-caption {
+      width: 95%;
+      left: 3%;
+      top: 62%;
+      height: 65px;
+
+      h5:last-child {
+        font-size: 20px;
+      }
+
+      .banner-left-bracket,
+      .banner-right-bracket {
+        height: 24px;
+      }
+    }
+    .active .slide0-banner-text .typewritter {
+      width: 194px;
+    }
+    .active .dot {
+      font-size: 35px;
+      width: 16px;
+      &:after {
+        top: 7px;
+        left: 6px;
+      }
+    }
+  } // inner
+  /* End Slider */
+}
+
+/* iPad Pro */
+@media only screen and (min-device-width: 768px) and (max-width: 1199px) {
+  /* banner */
+  /* Start Slider */
+  // home page slider styles
+  .carousel-control-next,
+  .carousel-control-prev {
+    // top:26%;
+    z-index: 10;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    // width: 30px;
+    // height: 30px;
+    // background-size: 45%;
+    margin-top: 0 !important;
+  }
+  #carouselExampleCaptions .carousel-item img {
+    height: 293px !important;
+  }
+  .carousel-caption {
+    width: 95%;
+    left: 3%;
+  }
+
+  .carousel-item {
+    min-height: 158px;
+  }
+  .first-slide {
+    padding-left: 0;
+  }
+  .carousel-inner {
+    h2 {
+      font-size: 30px;
+      margin-bottom: 2px;
+    }
+    h5,
+    h5.caption-first {
+      // font-size: 10px;
+      margin-bottom: 2px;
+    }
+    .carousel-caption {
+      width: 95%;
+      left: 3%;
+      top: 62%;
+      height: 65px;
+
+      h5:last-child {
+        font-size: 20px;
+      }
+
+      .banner-left-bracket,
+      .banner-right-bracket {
+        height: 24px;
+      }
+    }
+    .active .slide0-banner-text .typewritter {
+      width: 194px;
+    }
+    .active .dot {
+      font-size: 35px;
+      width: 16px;
+      &:after {
+        top: 7px;
+        left: 6px;
+      }
+    }
+  } // inner
+  /* End Slider */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+/* iPhone 6, 7, 8 ----------- */
+// and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) {
+  /* Start Slider */
+  // home page slider styles
+  .carousel-control-next,
+  .carousel-control-prev {
+    top: 40%;
+    z-index: 10;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+    background-size: 45%;
+    margin-top: 0 !important;
+  }
+
+  #carouselExampleCaptions .carousel-item img {
+    height: 144px !important;
+  }
+
+  .carousel-caption {
+    width: 95%;
+    left: 3%;
+  }
+
+  .carousel-item {
+    min-height: 158px;
+  }
+  .first-slide {
+    padding-left: 0;
+  }
+  .carousel-inner {
+    h2 {
+      font-size: 14px;
+      margin-bottom: 2px;
+    }
+    h5,
+    h5.caption-first {
+      font-size: 10px;
+      margin-bottom: 2px;
+    }
+    .carousel-caption {
+      width: 95%;
+      left: 3%;
+      top: 62%;
+      height: 65px;
+
+      h5:last-child {
+        font-size: 13px;
+      }
+
+      .banner-left-bracket,
+      .banner-right-bracket {
+        height: 14px;
+      }
+    }
+    .active .slide0-banner-text .typewritter {
+      width: 194px;
+    }
+    .active .dot {
+      font-size: 22px;
+      width: 16px;
+      &:after {
+        top: 4px;
+        left: 4px;
+      }
+    }
+  } // inner
+  /* End Slider */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+/* iPhone 6+, 7+, 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+/* iPhone X ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+  /* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+  /* Styles */
+}
+
+/* iPhone XS Max, XR ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+  /* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+  /* Styles */
+}
+
+// /* Samsung Galaxy S3 ----------- */
+// @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+// /* Styles */
+// }
+
+// @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+// /* Styles */
+// }
+
+// /* Samsung Galaxy S4 ----------- */
+// @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+// /* Styles */
+// }
+
+// @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+// /* Styles */
+// }
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: landscape) {
+  /* Styles */
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) {
+  /* Styles */
+  /* Start Slider */
+  // home page slider styles
+  .carousel-control-next,
+  .carousel-control-prev {
+    top: 36%;
+    // z-index: 10;
+  }
+  .carousel-inner h2 {
+    color: red !important;
+  }
+
+  //   .carousel-control-prev-icon,
+  //   .carousel-control-next-icon{
+  //     width: 30px;
+  //     height: 30px;
+  //     background-size: 45%;
+  //     margin-top: 0 !important;
+  //   }
+
+  #carouselExampleCaptions .carousel-item img {
+    height: 158px !important;
+  }
+
+  //   .carousel-caption{
+  //     width: 95%;
+  //     left: 3%;
+  //   }
+
+  //   .carousel-item{
+  //     min-height: 158px;
+  //   }
+  //   .first-slide{
+  //     padding-left: 0;
+  //   }
+  //   .carousel-inner {
+  //     h2{
+  //       font-size: 14px;
+  //       margin-bottom: 2px;
+  //     }
+  //     h5,
+  //     h5.caption-first{
+  //       font-size: 10px;
+  //       margin-bottom: 2px;
+  //     }
+  //     .carousel-caption{
+  //       width: 95%;
+  //       left: 3%;
+  //       top: 62%;
+  //       height: 65px;
+
+  //       h5:last-child{
+  //         font-size: 13px;
+  //       }
+
+  //       .banner-left-bracket,
+  //       .banner-right-bracket{
+  //         height: 14px;
+  //       }
+  //     }
+  //     .active .slide0-banner-text .typewritter{
+  //       width: 194px;
+  //     }
+  //     .active .dot{
+  //       font-size: 22px;
+  //       width: 16px;
+  //       &:after{
+  //         top: 4px;
+  //         left: 4px;
+  //       }
+  //     }
+
+  /* End Slider */
+}

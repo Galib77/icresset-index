@@ -40,6 +40,58 @@ jQuery(function ($) {
     });
 
 
+    function setTheBannerTypingTextWidth(){
+        let typingTextWidths = {
+            'mobilePortrait': {
+                name: 'mobilePortrait',
+                matcher: '(max-width: 320px)',
+                textWidth: ['194px', '202px', '182px', '251px']
+            },
+            'mobile': {
+                name: 'mobile',
+                matcher: '(max-width: 767px)',
+                textWidth: ['226px', '237px', '216px', '297px']
+            },
+            'iPad': {
+                name: 'iPad',
+                matcher: '(max-width: 991px)',
+                textWidth: ['340px', '358px', '323px', '450px']
+            },
+            'iPadPro': {
+                name: 'iPadPro',
+                matcher: '(max-width: 1199px)',
+                textWidth: ['340px', '358px', '323px', '450px']
+            },
+            'desktop': {
+                name: 'desktop',
+                matcher: '(min-width: 1200px)',
+                textWidth: ['422px', '446px', '402px', '561px']
+            }
+        };
+
+        for (var device in typingTextWidths) {
+            // console.log('aa', device);
+            let match = window.matchMedia(typingTextWidths[device].matcher);
+            
+            if(match.matches){
+                let widths = typingTextWidths[device].textWidth;
+                console.log('device =>', device, match, widths);
+
+                $('.carousel-inner .typing-text').each(function(index, elem){
+                    // console.log('val =>', elem, index);
+                    $(elem).width(widths[index]);
+                });
+                break;
+            }
+
+            // console.log('matcher =>', device, match);
+        }
+
+    
+        
+    }
+
+    setTheBannerTypingTextWidth();
 
     $('#carouselExampleCaptions').on('slide.bs.carousel', function (event) {
         setTimeout(function () {
@@ -81,6 +133,11 @@ jQuery(function ($) {
 
 // Animate the ten steps on acquisition page
 (function($){
+    // If it is not acquisition page then don't run the below code.
+    if( $('.inner-page-content.acquisition-page').length == 0){
+        return;
+    }
+
     var timers = [];
     var $this = $('#ten-steps-to-hire');
 
@@ -147,9 +204,13 @@ jQuery(function ($) {
     });
 })(jQuery);
 
-// Animate the ten steps on acquisition page
+// Animate the ten steps on assessment page
 (function($){
-    var timers = [];
+    // If it is not assessment page then don't run the below code.
+    if( $('.inner-page-content.assesment-page').length == 0){
+        return;
+    }
+
     var animationType = ['animate__slideInLeft', 'animate__zoomIn', 'animate__slideInRight'];
     // var animationType = ['animate__zoomIn', 'animate__zoomIn', 'animate__zoomIn'];
     
