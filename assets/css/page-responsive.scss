@@ -1,4 +1,7 @@
 
+// @import url('./banner.css');
+
+
 /* iPad Pro */
 
 @media only  screen and (max-width: 1199px) {
@@ -24,7 +27,75 @@
   }
   
   /* banner */
-  
+  /* Start Slider */
+  // home page slider styles
+  .carousel-control-next, 
+  .carousel-control-prev{
+    // top:26%;
+    z-index: 10;
+  }
+
+  .carousel-control-prev-icon, 
+  .carousel-control-next-icon{
+    // width: 30px;
+    // height: 30px;
+    // background-size: 45%;
+    margin-top: 0 !important;
+  }
+  #carouselExampleCaptions .carousel-item img{
+    height: 293px !important;
+  }
+  .carousel-caption{
+    width: 95%;
+    left: 3%;
+  }
+
+  .carousel-item{
+    min-height: 158px;
+  }
+  .first-slide{
+    padding-left: 0;
+  }
+  .carousel-inner {
+    h2{
+      font-size: 30px;
+      margin-bottom: 2px;
+    }
+    h5, 
+    h5.caption-first{
+      // font-size: 10px;
+      margin-bottom: 2px;
+    }
+    .carousel-caption{
+      width: 95%;
+      left: 3%;
+      top: 62%;
+      height: 65px;
+
+      h5:last-child{
+        font-size: 20px;
+      }
+
+      .banner-left-bracket, 
+      .banner-right-bracket{
+        height: 24px;
+      }
+    } 
+    .active .slide0-banner-text .typewritter{
+      width: 194px;
+    }
+    .active .dot{
+      font-size: 35px;
+      width: 16px;
+      &:after{
+        top: 7px;
+        left: 6px;
+      }
+    }
+
+  } // inner
+/* End Slider */
+
   /* about */
   
   .about-page .team-profile {
@@ -138,6 +209,75 @@
   .nav-item a img {
     width: 15px;
   }
+
+  /* Start Slider */
+  // home page slider styles
+  .carousel-control-next, 
+  .carousel-control-prev{
+    top:26%;
+    z-index: 10;
+  }
+
+  .carousel-control-prev-icon, 
+  .carousel-control-next-icon{
+    // width: 30px;
+    // height: 30px;
+    // background-size: 45%;
+    margin-top: 0 !important;
+  }
+  #carouselExampleCaptions .carousel-item img{
+    height: 256px !important;
+  }
+  .carousel-caption{
+    width: 95%;
+    left: 3%;
+  }
+
+  .carousel-item{
+    min-height: 158px;
+  }
+  .first-slide{
+    padding-left: 0;
+  }
+  .carousel-inner {
+    h2{
+      font-size: 30px;
+      margin-bottom: 2px;
+    }
+    h5, 
+    h5.caption-first{
+      // font-size: 10px;
+      margin-bottom: 2px;
+    }
+    .carousel-caption{
+      width: 95%;
+      left: 3%;
+      top: 62%;
+      height: 65px;
+
+      h5:last-child{
+        font-size: 20px;
+      }
+
+      .banner-left-bracket, 
+      .banner-right-bracket{
+        height: 24px;
+      }
+    } 
+    .active .slide0-banner-text .typewritter{
+      width: 194px;
+    }
+    .active .dot{
+      font-size: 35px;
+      width: 16px;
+      &:after{
+        top: 7px;
+        left: 6px;
+      }
+    }
+
+  } // inner
+/* End Slider */
 
   // home
   .theme-btn {
@@ -315,14 +455,89 @@
 
 .top-navigation-bar ul li {
     a, span {
-      font-size: 10px;
+      font-size: 8px;
     }
   }
   
   .nav-item a img {
     width: 15px;
   }
-  
+
+  .quote-section .section-title h3{
+    font-size: 15px;
+  }
+
+  /* Start Slider */
+  // home page slider styles
+  .carousel-control-next, 
+  .carousel-control-prev{
+    top:40%;
+    z-index: 10;
+  }
+
+  .carousel-control-prev-icon, 
+  .carousel-control-next-icon{
+    width: 30px;
+    height: 30px;
+    background-size: 45%;
+    margin-top: 0 !important;
+  }
+
+  #carouselExampleCaptions .carousel-item img{
+    height: 158px !important;
+  }
+
+  .carousel-caption{
+    width: 95%;
+    left: 3%;
+  }
+
+  .carousel-item{
+    min-height: 158px;
+  }
+  .first-slide{
+    padding-left: 0;
+  }
+  .carousel-inner {
+    h2{
+      font-size: 14px;
+      margin-bottom: 2px;
+    }
+    h5, 
+    h5.caption-first{
+      font-size: 10px;
+      margin-bottom: 2px;
+    }
+    .carousel-caption{
+      width: 95%;
+      left: 3%;
+      top: 62%;
+      height: 65px;
+
+      h5:last-child{
+        font-size: 13px;
+      }
+
+      .banner-left-bracket, 
+      .banner-right-bracket{
+        height: 14px;
+      }
+    } 
+    .active .slide0-banner-text .typewritter{
+      width: 194px;
+    }
+    .active .dot{
+      font-size: 22px;
+      width: 16px;
+      &:after{
+        top: 4px;
+        left: 4px;
+      }
+    }
+
+  } // inner
+/* End Slider */
+
   /* about */
   
   .about-page .team-profile {
@@ -343,9 +558,24 @@
   .bottom-nav .text-white {
     text-align: center;
   }
-  .bottom-nav ul {
-    text-align: center !important;
-  }
+
+  .bottom-nav{
+    .mt-3{
+      margin-top: 0 !important;
+      text-align: center;
+      margin-bottom: -4px;
+    }
+    p{
+      margin-top: 5px;
+      margin-bottom: 0;
+    }
+    ul {
+      float: none !important;
+      margin-bottom: 5px;
+      padding-left: 0;
+      display: inline-flex;
+    }
+  } 
   /* acquisition */
   
   .inner-page-content .pillars h2 {
@@ -415,7 +645,18 @@
 }
 
 @media (max-width: 320px) {
+  .top-navigation-bar ul li a, 
+  .top-navigation-bar ul li span {
+    font-size: 8px;
+  }
+  
   // home page slider styles
+  .carousel-control-next, 
+  .carousel-control-prev{
+    top:40%;
+    z-index: 10;
+  }
+
   .carousel-control-prev-icon, 
   .carousel-control-next-icon{
     width: 30px;
@@ -423,10 +664,58 @@
     background-size: 45%;
     margin-top: 0 !important;
   }
+
+  #carouselExampleCaptions .carousel-item img{
+    height: 158px !important;
+  }
+
+  .carousel-caption{
+    width: 95%;
+    left: 3%;
+  }
+
   .carousel-item{
-    min-height: 235px;
+    min-height: 158px;
   }
   .first-slide{
     padding-left: 0;
   }
+  .carousel-inner {
+    h2{
+      font-size: 13px;
+      margin-bottom: 2px;
+    }
+    h5, 
+    h5.caption-first{
+      font-size: 9px;
+      margin-bottom: 2px;
+    }
+    .carousel-caption{
+      width: 95%;
+      left: 3%;
+      top: 64%;
+      height: 65px;
+
+      h5:last-child{
+        font-size: 11px;
+      }
+
+      .banner-left-bracket, 
+      .banner-right-bracket{
+        height: 14px;
+      }
+    } 
+    .active .slide0-banner-text .typewritter{
+      width: 194px;
+    }
+    .active .dot{
+      font-size: 22px;
+      width: 16px;
+      &:after{
+        top: 4px;
+        left: 4px;
+      }
+    }
+
+  } // inner
 }
